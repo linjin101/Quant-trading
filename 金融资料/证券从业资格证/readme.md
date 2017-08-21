@@ -1,1 +1,1 @@
-[http://pan.baidu.com/s/1jIh3WMy](http://pan.baidu.com/s/1jIh3WMy "证券从业资格证视频")
+[证券从业资格证视频](http://pan.baidu.com/s/1jIh3WMy)
