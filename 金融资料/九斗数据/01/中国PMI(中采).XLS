@@ -1,0 +1,2393 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="ProgId" content="Excel.Sheet"/>
+  <meta name="Generator" content="WPS Office ET"/>
+  <!--[if gte mso 9]>
+   <xml>
+    <o:DocumentProperties>
+     <o:Created>2018-03-31T22:34:13</o:Created>
+     <o:LastAuthor>程序猿PMP</o:LastAuthor>
+     <o:LastSaved>2018-03-31T22:35:27</o:LastSaved>
+    </o:DocumentProperties>
+    <o:CustomDocumentProperties>
+     <o:KSOProductBuildVer dt:dt="string">2052-10.1.0.6929</o:KSOProductBuildVer>
+    </o:CustomDocumentProperties>
+   </xml>
+  <![endif]-->
+  <style>
+<!-- @page
+	{margin:0.98in 0.75in 0.98in 0.75in;
+	mso-header-margin:0.51in;
+	mso-footer-margin:0.51in;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.font0
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font1
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font2
+	{color:#44546A;
+	font-size:18.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font3
+	{color:#44546A;
+	font-size:15.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font4
+	{color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font5
+	{color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font6
+	{color:#9C0006;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font7
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font8
+	{color:#3F3F3F;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font9
+	{color:#3F3F76;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font10
+	{color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font11
+	{color:#FF0000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font12
+	{color:#0000FF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font13
+	{color:#800080;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font14
+	{color:#44546A;
+	font-size:13.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font15
+	{color:#44546A;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font16
+	{color:#7F7F7F;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:italic;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font17
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font18
+	{color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font19
+	{color:#9C6500;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font20
+	{color:#006100;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.style0
+	{mso-number-format:"General";
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-pattern:auto;
+	mso-background-source:auto;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:"常规";
+	mso-style-id:0;}
+.style16
+	{mso-number-format:"_ \0022\00A5\0022* \#\,\#\#0_ \;_ \0022\00A5\0022* \\-\#\,\#\#0_ \;_ \0022\00A5\0022* \0022-\0022_ \;_ \@_ ";
+	mso-style-name:"货币[0]";
+	mso-style-id:7;}
+.style17
+	{mso-pattern:auto none;
+	background:#EDEDED;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - 强调文字颜色 3";}
+.style18
+	{mso-pattern:auto none;
+	background:#FFCC99;
+	color:#3F3F76;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid #7F7F7F;
+	mso-style-name:"输入";}
+.style19
+	{mso-number-format:"_ \0022\00A5\0022* \#\,\#\#0\.00_ \;_ \0022\00A5\0022* \\-\#\,\#\#0\.00_ \;_ \0022\00A5\0022* \0022-\0022??_ \;_ \@_ ";
+	mso-style-name:"货币";
+	mso-style-id:4;}
+.style20
+	{mso-number-format:"_ * \#\,\#\#0_ \;_ * \\-\#\,\#\#0_ \;_ * \0022-\0022_ \;_ \@_ ";
+	mso-style-name:"千位分隔[0]";
+	mso-style-id:6;}
+.style21
+	{mso-pattern:auto none;
+	background:#DBDBDB;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - 强调文字颜色 3";}
+.style22
+	{mso-pattern:auto none;
+	background:#FFC7CE;
+	color:#9C0006;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"差";}
+.style23
+	{mso-number-format:"_ * \#\,\#\#0\.00_ \;_ * \\-\#\,\#\#0\.00_ \;_ * \0022-\0022??_ \;_ \@_ ";
+	mso-style-name:"千位分隔";
+	mso-style-id:3;}
+.style24
+	{mso-pattern:auto none;
+	background:#C9C9C9;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - 强调文字颜色 3";}
+.style25
+	{color:#0000FF;
+	font-size:11.0pt;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:宋体;
+	mso-style-name:"超链接";
+	mso-style-id:8;}
+.style26
+	{mso-number-format:"0%";
+	mso-style-name:"百分比";
+	mso-style-id:5;}
+.style27
+	{color:#800080;
+	font-size:11.0pt;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:宋体;
+	mso-style-name:"已访问的超链接";
+	mso-style-id:9;}
+.style28
+	{mso-pattern:auto none;
+	background:#FFFFCC;
+	border:.5pt solid #B2B2B2;
+	mso-style-name:"注释";}
+.style29
+	{mso-pattern:auto none;
+	background:#F4B084;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - 强调文字颜色 2";}
+.style30
+	{color:#44546A;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-style-name:"标题 4";}
+.style31
+	{color:#FF0000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"警告文本";}
+.style32
+	{color:#44546A;
+	font-size:18.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-style-name:"标题";}
+.style33
+	{color:#7F7F7F;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:italic;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"解释性文本";}
+.style34
+	{color:#44546A;
+	font-size:15.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border-bottom:1.0pt solid #5B9BD5;
+	mso-style-name:"标题 1";}
+.style35
+	{color:#44546A;
+	font-size:13.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border-bottom:1.0pt solid #5B9BD5;
+	mso-style-name:"标题 2";}
+.style36
+	{mso-pattern:auto none;
+	background:#9BC2E6;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - 强调文字颜色 1";}
+.style37
+	{color:#44546A;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border-bottom:1.0pt solid #ACCCEA;
+	mso-style-name:"标题 3";}
+.style38
+	{mso-pattern:auto none;
+	background:#FFD966;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - 强调文字颜色 4";}
+.style39
+	{mso-pattern:auto none;
+	background:#F2F2F2;
+	color:#3F3F3F;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid #3F3F3F;
+	mso-style-name:"输出";}
+.style40
+	{mso-pattern:auto none;
+	background:#F2F2F2;
+	color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid #7F7F7F;
+	mso-style-name:"计算";}
+.style41
+	{mso-pattern:auto none;
+	background:#A5A5A5;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:2.0pt double #3F3F3F;
+	mso-style-name:"检查单元格";}
+.style42
+	{mso-pattern:auto none;
+	background:#E2EFDA;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - 强调文字颜色 6";}
+.style43
+	{mso-pattern:auto none;
+	background:#ED7D31;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"强调文字颜色 2";}
+.style44
+	{color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border-bottom:2.0pt double #FF8001;
+	mso-style-name:"链接单元格";}
+.style45
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border-top:.5pt solid #5B9BD5;
+	border-bottom:2.0pt double #5B9BD5;
+	mso-style-name:"汇总";}
+.style46
+	{mso-pattern:auto none;
+	background:#C6EFCE;
+	color:#006100;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"好";}
+.style47
+	{mso-pattern:auto none;
+	background:#FFEB9C;
+	color:#9C6500;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"适中";}
+.style48
+	{mso-pattern:auto none;
+	background:#D9E1F2;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - 强调文字颜色 5";}
+.style49
+	{mso-pattern:auto none;
+	background:#5B9BD5;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"强调文字颜色 1";}
+.style50
+	{mso-pattern:auto none;
+	background:#DDEBF7;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - 强调文字颜色 1";}
+.style51
+	{mso-pattern:auto none;
+	background:#BDD7EE;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - 强调文字颜色 1";}
+.style52
+	{mso-pattern:auto none;
+	background:#FCE4D6;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - 强调文字颜色 2";}
+.style53
+	{mso-pattern:auto none;
+	background:#F8CBAD;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - 强调文字颜色 2";}
+.style54
+	{mso-pattern:auto none;
+	background:#A5A5A5;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"强调文字颜色 3";}
+.style55
+	{mso-pattern:auto none;
+	background:#FFC000;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"强调文字颜色 4";}
+.style56
+	{mso-pattern:auto none;
+	background:#FFF2CC;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - 强调文字颜色 4";}
+.style57
+	{mso-pattern:auto none;
+	background:#FFE699;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - 强调文字颜色 4";}
+.style58
+	{mso-pattern:auto none;
+	background:#4472C4;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"强调文字颜色 5";}
+.style59
+	{mso-pattern:auto none;
+	background:#B4C6E7;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - 强调文字颜色 5";}
+.style60
+	{mso-pattern:auto none;
+	background:#8EA9DB;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - 强调文字颜色 5";}
+.style61
+	{mso-pattern:auto none;
+	background:#70AD47;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"强调文字颜色 6";}
+.style62
+	{mso-pattern:auto none;
+	background:#C6E0B4;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - 强调文字颜色 6";}
+.style63
+	{mso-pattern:auto none;
+	background:#A9D08E;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - 强调文字颜色 6";}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	mso-number-format:"General";
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-pattern:auto;
+	mso-background-source:auto;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;}
+.xl65
+	{mso-style-parent:style0;
+	mso-number-format:"yyyy\0022年\0022m\0022月\0022d\0022日\0022\;\@";
+	mso-font-charset:134;}
+.xl66
+	{mso-style-parent:style0;
+	mso-number-format:"yyyy\0022年\0022m\0022月\0022d\0022日\0022\;\@";
+	text-align:center;
+	white-space:normal;
+	font-weight:700;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl67
+	{mso-style-parent:style0;
+	text-align:center;
+	white-space:normal;
+	font-weight:700;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl68
+	{mso-style-parent:style0;
+	mso-number-format:"yyyy\0022年\0022m\0022月\0022d\0022日\0022\;\@";
+	white-space:normal;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl69
+	{mso-style-parent:style0;
+	white-space:normal;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+ -->  </style>
+  <!--[if gte mso 9]>
+   <xml>
+    <x:ExcelWorkbook>
+     <x:ExcelWorksheets>
+      <x:ExcelWorksheet>
+       <x:Name>中国PMI(中采)</x:Name>
+       <x:WorksheetOptions>
+        <x:DefaultRowHeight>270</x:DefaultRowHeight>
+        <x:Selected/>
+        <x:Panes>
+         <x:Pane>
+          <x:Number>3</x:Number>
+          <x:ActiveCol>3</x:ActiveCol>
+          <x:ActiveRow>13</x:ActiveRow>
+          <x:RangeSelection>D14</x:RangeSelection>
+         </x:Pane>
+        </x:Panes>
+        <x:DoNotDisplayGridlines/>
+        <x:ProtectContents>False</x:ProtectContents>
+        <x:ProtectObjects>False</x:ProtectObjects>
+        <x:ProtectScenarios>False</x:ProtectScenarios>
+        <x:Print>
+         <x:PaperSizeIndex>9</x:PaperSizeIndex>
+        </x:Print>
+       </x:WorksheetOptions>
+      </x:ExcelWorksheet>
+     </x:ExcelWorksheets>
+     <x:ProtectStructure>False</x:ProtectStructure>
+     <x:ProtectWindows>False</x:ProtectWindows>
+     <x:WindowHeight>13050</x:WindowHeight>
+     <x:WindowWidth>28695</x:WindowWidth>
+    </x:ExcelWorkbook>
+   </xml>
+  <![endif]-->
+ </head>
+ <body link="blue" vlink="purple">
+  <table width="1504" border="0" cellpadding="0" cellspacing="0" style='width:1128.00pt;border-collapse:collapse;table-layout:fixed;'>
+   <col width="117" class="xl65" style='mso-width-source:userset;mso-width-alt:3744;'/>
+   <col width="87" style='mso-width-source:userset;mso-width-alt:2784;'/>
+   <col width="75" style='mso-width-source:userset;mso-width-alt:2400;'/>
+   <col width="92" style='mso-width-source:userset;mso-width-alt:2944;'/>
+   <col width="128" style='mso-width-source:userset;mso-width-alt:4096;'/>
+   <col width="110" style='mso-width-source:userset;mso-width-alt:3520;'/>
+   <col width="128" style='mso-width-source:userset;mso-width-alt:4096;'/>
+   <col width="92" style='mso-width-source:userset;mso-width-alt:2944;'/>
+   <col width="75" style='mso-width-source:userset;mso-width-alt:2400;'/>
+   <col width="199" style='mso-width-source:userset;mso-width-alt:6368;'/>
+   <col width="128" style='mso-width-source:userset;mso-width-alt:4096;'/>
+   <col width="110" style='mso-width-source:userset;mso-width-alt:3520;'/>
+   <col width="163" style='mso-width-source:userset;mso-width-alt:5216;'/>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl66" height="18" width="117" style='height:13.50pt;width:87.75pt;' x:str>统计时间</td>
+    <td class="xl67" width="87" style='width:65.25pt;' x:str>制造业PMI</td>
+    <td class="xl67" width="75" style='width:56.25pt;' x:str>生产指数</td>
+    <td class="xl67" width="92" style='width:69.00pt;' x:str>新订单指数</td>
+    <td class="xl67" width="128" style='width:96.00pt;' x:str>新出口订单指数</td>
+    <td class="xl67" width="110" style='width:82.50pt;' x:str>积压订单指数</td>
+    <td class="xl67" width="128" style='width:96.00pt;' x:str>产成品库存指数</td>
+    <td class="xl67" width="92" style='width:69.00pt;' x:str>采购量指数</td>
+    <td class="xl67" width="75" style='width:56.25pt;' x:str>进口指数</td>
+    <td class="xl67" width="199" style='width:149.25pt;' x:str>主要原材料购进价格指数</td>
+    <td class="xl67" width="128" style='width:96.00pt;' x:str>原材料库存指数</td>
+    <td class="xl67" width="110" style='width:82.50pt;' x:str>从业人员指数</td>
+    <td class="xl67" width="163" style='width:122.25pt;' x:str>供应商配送时间指数</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40179.">2010年1月1日</td>
+    <td class="xl69" align="right" x:num>55.8</td>
+    <td class="xl69" align="right" x:num>60.5</td>
+    <td class="xl69" align="right" x:num>59.9</td>
+    <td class="xl69" align="right" x:num>53.2</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>60.5</td>
+    <td class="xl69" align="right" x:num>53.4</td>
+    <td class="xl69" align="right" x:num>68.5</td>
+    <td class="xl69" align="right" x:num>52.2</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>51</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40210.">2010年2月1日</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>54.3</td>
+    <td class="xl69" align="right" x:num>53.7</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>47.1</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>51.9</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>61.1</td>
+    <td class="xl69" align="right" x:num>48.1</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40238.">2010年3月1日</td>
+    <td class="xl69" align="right" x:num>55.1</td>
+    <td class="xl69" align="right" x:num>58.4</td>
+    <td class="xl69" align="right" x:num>58.1</td>
+    <td class="xl69" align="right" x:num>54.5</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>58.1</td>
+    <td class="xl69" align="right" x:num>53.7</td>
+    <td class="xl69" align="right" x:num>65.1</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>52.9</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40269.">2010年4月1日</td>
+    <td class="xl69" align="right" x:num>55.7</td>
+    <td class="xl69" align="right" x:num>59.1</td>
+    <td class="xl69" align="right" x:num>59.3</td>
+    <td class="xl69" align="right" x:num>54.5</td>
+    <td class="xl69" align="right" x:num>53.4</td>
+    <td class="xl69" align="right" x:num>46.2</td>
+    <td class="xl69" align="right" x:num>60.1</td>
+    <td class="xl69" align="right" x:num>53.1</td>
+    <td class="xl69" align="right" x:num>72.6</td>
+    <td class="xl69" align="right" x:num>51.5</td>
+    <td class="xl69" align="right" x:num>53.2</td>
+    <td class="xl69" align="right" x:num>51.1</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40299.">2010年5月1日</td>
+    <td class="xl69" align="right" x:num>53.9</td>
+    <td class="xl69" align="right" x:num>58.2</td>
+    <td class="xl69" align="right" x:num>54.8</td>
+    <td class="xl69" align="right" x:num>53.8</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>56</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>58.9</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>52.1</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40330.">2010年6月1日</td>
+    <td class="xl69" align="right" x:num>52.1</td>
+    <td class="xl69" align="right" x:num>55.8</td>
+    <td class="xl69" align="right" x:num>52.1</td>
+    <td class="xl69" align="right" x:num>51.7</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>53.5</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>49.4</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>50</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40360.">2010年7月1日</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>52.7</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>46.8</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+    <td class="xl69" align="right" x:num>52.2</td>
+    <td class="xl69" align="right" x:num>49.3</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>52.2</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40391.">2010年8月1日</td>
+    <td class="xl69" align="right" x:num>51.7</td>
+    <td class="xl69" align="right" x:num>53.1</td>
+    <td class="xl69" align="right" x:num>53.1</td>
+    <td class="xl69" align="right" x:num>52.2</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>46.9</td>
+    <td class="xl69" align="right" x:num>51.9</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+    <td class="xl69" align="right" x:num>60.5</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>51.7</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40422.">2010年9月1日</td>
+    <td class="xl69" align="right" x:num>53.8</td>
+    <td class="xl69" align="right" x:num>56.4</td>
+    <td class="xl69" align="right" x:num>56.3</td>
+    <td class="xl69" align="right" x:num>52.8</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>45</td>
+    <td class="xl69" align="right" x:num>56.2</td>
+    <td class="xl69" align="right" x:num>52.9</td>
+    <td class="xl69" align="right" x:num>65.3</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>52.4</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40452.">2010年10月1日</td>
+    <td class="xl69" align="right" x:num>54.7</td>
+    <td class="xl69" align="right" x:num>57.1</td>
+    <td class="xl69" align="right" x:num>58.2</td>
+    <td class="xl69" align="right" x:num>52.6</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>45.7</td>
+    <td class="xl69" align="right" x:num>58.3</td>
+    <td class="xl69" align="right" x:num>52.8</td>
+    <td class="xl69" align="right" x:num>69.9</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>52.1</td>
+    <td class="xl69" align="right" x:num>49.3</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40483.">2010年11月1日</td>
+    <td class="xl69" align="right" x:num>55.2</td>
+    <td class="xl69" align="right" x:num>58.5</td>
+    <td class="xl69" align="right" x:num>58.3</td>
+    <td class="xl69" align="right" x:num>53.2</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>47.7</td>
+    <td class="xl69" align="right" x:num>57.4</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>73.5</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>48.9</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40513.">2010年12月1日</td>
+    <td class="xl69" align="right" x:num>53.9</td>
+    <td class="xl69" align="right" x:num>57.5</td>
+    <td class="xl69" align="right" x:num>55.4</td>
+    <td class="xl69" align="right" x:num>53.5</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+    <td class="xl69" align="right" x:num>48.7</td>
+    <td class="xl69" align="right" x:num>56.8</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>66.7</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+    <td class="xl69" align="right" x:num>51.5</td>
+    <td class="xl69" align="right" x:num>49.6</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40544.">2011年1月1日</td>
+    <td class="xl69" align="right" x:num>52.9</td>
+    <td class="xl69" align="right" x:num>55.3</td>
+    <td class="xl69" align="right" x:num>54.9</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+    <td class="xl69" align="right" x:num>46.5</td>
+    <td class="xl69" align="right" x:num>47.9</td>
+    <td class="xl69" align="right" x:num>57.7</td>
+    <td class="xl69" align="right" x:num>53</td>
+    <td class="xl69" align="right" x:num>69.3</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40575.">2011年2月1日</td>
+    <td class="xl69" align="right" x:num>52.2</td>
+    <td class="xl69" align="right" x:num>53.8</td>
+    <td class="xl69" align="right" x:num>54.3</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>46.6</td>
+    <td class="xl69" align="right" x:num>46.4</td>
+    <td class="xl69" align="right" x:num>54.5</td>
+    <td class="xl69" align="right" x:num>53.9</td>
+    <td class="xl69" align="right" x:num>70.1</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>48.9</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40603.">2011年3月1日</td>
+    <td class="xl69" align="right" x:num>53.4</td>
+    <td class="xl69" align="right" x:num>55.7</td>
+    <td class="xl69" align="right" x:num>55.2</td>
+    <td class="xl69" align="right" x:num>52.5</td>
+    <td class="xl69" align="right" x:num>51.4</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>54.1</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>68.3</td>
+    <td class="xl69" align="right" x:num>51.6</td>
+    <td class="xl69" align="right" x:num>51.8</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40634.">2011年4月1日</td>
+    <td class="xl69" align="right" x:num>52.9</td>
+    <td class="xl69" align="right" x:num>55.3</td>
+    <td class="xl69" align="right" x:num>53.8</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+    <td class="xl69" align="right" x:num>53.8</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>66.2</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>51.8</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40664.">2011年5月1日</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>54.9</td>
+    <td class="xl69" align="right" x:num>52.1</td>
+    <td class="xl69" align="right" x:num>51.1</td>
+    <td class="xl69" align="right" x:num>47.7</td>
+    <td class="xl69" align="right" x:num>50</td>
+    <td class="xl69" align="right" x:num>53.6</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>60.3</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40695.">2011年6月1日</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>53.1</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>45.9</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>51.5</td>
+    <td class="xl69" align="right" x:num>48.7</td>
+    <td class="xl69" align="right" x:num>56.7</td>
+    <td class="xl69" align="right" x:num>48.5</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40725.">2011年7月1日</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+    <td class="xl69" align="right" x:num>52.1</td>
+    <td class="xl69" align="right" x:num>51.1</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>46.5</td>
+    <td class="xl69" align="right" x:num>49.2</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>56.3</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40756.">2011年8月1日</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>52.3</td>
+    <td class="xl69" align="right" x:num>51.1</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>48.9</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+    <td class="xl69" align="right" x:num>57.2</td>
+    <td class="xl69" align="right" x:num>48.8</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40787.">2011年9月1日</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>52.7</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>48.9</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+    <td class="xl69" align="right" x:num>51.5</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>56.6</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40817.">2011年10月1日</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>52.3</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69" align="right" x:num>46</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+    <td class="xl69" align="right" x:num>47</td>
+    <td class="xl69" align="right" x:num>46.2</td>
+    <td class="xl69" align="right" x:num>48.5</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40848.">2011年11月1日</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>45.6</td>
+    <td class="xl69" align="right" x:num>45.2</td>
+    <td class="xl69" align="right" x:num>53.1</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>44.4</td>
+    <td class="xl69" align="right" x:num>46.7</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40878.">2011年12月1日</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>53.4</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69" align="right" x:num>46.6</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>47.1</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>48.7</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40909.">2012年1月1日</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>53.6</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>46.9</td>
+    <td class="xl69" align="right" x:num>43.2</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>46.9</td>
+    <td class="xl69" align="right" x:num>50</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+    <td class="xl69" align="right" x:num>47.1</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40940.">2012年2月1日</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>53.8</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>51.1</td>
+    <td class="xl69" align="right" x:num>49.4</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>53.6</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+    <td class="xl69" align="right" x:num>54</td>
+    <td class="xl69" align="right" x:num>48.8</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="40969.">2012年3月1日</td>
+    <td class="xl69" align="right" x:num>53.1</td>
+    <td class="xl69" align="right" x:num>55.2</td>
+    <td class="xl69" align="right" x:num>55.1</td>
+    <td class="xl69" align="right" x:num>51.9</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+    <td class="xl69" align="right" x:num>54.8</td>
+    <td class="xl69" align="right" x:num>51.5</td>
+    <td class="xl69" align="right" x:num>55.9</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>48.9</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41000.">2012年4月1日</td>
+    <td class="xl69" align="right" x:num>53.3</td>
+    <td class="xl69" align="right" x:num>57.2</td>
+    <td class="xl69" align="right" x:num>54.5</td>
+    <td class="xl69" align="right" x:num>52.2</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>54.4</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>54.8</td>
+    <td class="xl69" align="right" x:num>48.5</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>49.6</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41030.">2012年5月1日</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>52.9</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>43.6</td>
+    <td class="xl69" align="right" x:num>52.2</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+    <td class="xl69" align="right" x:num>48.1</td>
+    <td class="xl69" align="right" x:num>44.8</td>
+    <td class="xl69" align="right" x:num>45.1</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>49</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41061.">2012年6月1日</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>49.2</td>
+    <td class="xl69" align="right" x:num>47.5</td>
+    <td class="xl69" align="right" x:num>43.3</td>
+    <td class="xl69" align="right" x:num>52.3</td>
+    <td class="xl69" align="right" x:num>46.9</td>
+    <td class="xl69" align="right" x:num>46.5</td>
+    <td class="xl69" align="right" x:num>41.2</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41091.">2012年7月1日</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>51.8</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>46.6</td>
+    <td class="xl69" align="right" x:num>41.9</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>46.8</td>
+    <td class="xl69" align="right" x:num>45</td>
+    <td class="xl69" align="right" x:num>41</td>
+    <td class="xl69" align="right" x:num>48.5</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>49</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41122.">2012年8月1日</td>
+    <td class="xl69" align="right" x:num>49.2</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>48.7</td>
+    <td class="xl69" align="right" x:num>46.6</td>
+    <td class="xl69" align="right" x:num>46.6</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>48.8</td>
+    <td class="xl69" align="right" x:num>47</td>
+    <td class="xl69" align="right" x:num>46.1</td>
+    <td class="xl69" align="right" x:num>45.1</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>50</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41153.">2012年9月1日</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>48.8</td>
+    <td class="xl69" align="right" x:num>46.52</td>
+    <td class="xl69" align="right" x:num>47.87</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>47.69</td>
+    <td class="xl69" align="right" x:num>50.97</td>
+    <td class="xl69" align="right" x:num>47</td>
+    <td class="xl69" align="right" x:num>48.9</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41183.">2012年10月1日</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>52.1</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>49.3</td>
+    <td class="xl69" align="right" x:num>43.8</td>
+    <td class="xl69" align="right" x:num>48.1</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+    <td class="xl69" align="right" x:num>54.3</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>49.2</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41214.">2012年11月1日</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>52.5</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>45.27</td>
+    <td class="xl69" align="right" x:num>48.77</td>
+    <td class="xl69" align="right" x:num>51.4</td>
+    <td class="xl69" align="right" x:num>48.5</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>47.9</td>
+    <td class="xl69" align="right" x:num>48.7</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41244.">2012年12月1日</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>50</td>
+    <td class="xl69"></td>
+    <td class="xl69"></td>
+    <td class="xl69"></td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>53.3</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>48.8</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41275.">2013年1月1日</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>51.6</td>
+    <td class="xl69" align="right" x:num>48.5</td>
+    <td class="xl69" align="right" x:num>44.4</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>53.2</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>57.2</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>50</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41306.">2013年2月1日</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69"></td>
+    <td class="xl69"></td>
+    <td class="xl69"></td>
+    <td class="xl69" align="right" x:num>48.1</td>
+    <td class="xl69" align="right" x:num>55.5</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41334.">2013年3月1日</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>52.7</td>
+    <td class="xl69" align="right" x:num>52.3</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>51.9</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>47.1</td>
+    <td class="xl69" align="right" x:num>48.9</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>47.5</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>51.1</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41365.">2013年4月1日</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>52.6</td>
+    <td class="xl69" align="right" x:num>51.7</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69"></td>
+    <td class="xl69"></td>
+    <td class="xl69"></td>
+    <td class="xl69" align="right" x:num>48.7</td>
+    <td class="xl69" align="right" x:num>40.1</td>
+    <td class="xl69" align="right" x:num>47.5</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41395.">2013年5月1日</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+    <td class="xl69" align="right" x:num>53.3</td>
+    <td class="xl69" align="right" x:num>51.8</td>
+    <td class="xl69" align="right" x:num>49.4</td>
+    <td class="xl69"></td>
+    <td class="xl69"></td>
+    <td class="xl69"></td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>45.1</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>48.8</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41426.">2013年6月1日</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>47.7</td>
+    <td class="xl69" align="right" x:num>42.9</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>47.9</td>
+    <td class="xl69" align="right" x:num>44.6</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>48.7</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41456.">2013年7月1日</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>52.4</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>44.7</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>50</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41487.">2013年8月1日</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>52.6</td>
+    <td class="xl69" align="right" x:num>52.4</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>44.8</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>50</td>
+    <td class="xl69" align="right" x:num>53.2</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>49.3</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41518.">2013年9月1日</td>
+    <td class="xl69" align="right" x:num>51.1</td>
+    <td class="xl69" align="right" x:num>52.9</td>
+    <td class="xl69" align="right" x:num>52.8</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+    <td class="xl69" align="right" x:num>46.2</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>52.5</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>54.5</td>
+    <td class="xl69" align="right" x:num>48.5</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41548.">2013年10月1日</td>
+    <td class="xl69" align="right" x:num>51.4</td>
+    <td class="xl69" align="right" x:num>54.4</td>
+    <td class="xl69" align="right" x:num>52.5</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>45.5</td>
+    <td class="xl69" align="right" x:num>45.6</td>
+    <td class="xl69" align="right" x:num>52.7</td>
+    <td class="xl69" align="right" x:num>50</td>
+    <td class="xl69" align="right" x:num>53.3</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69" align="right" x:num>49.2</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41579.">2013年11月1日</td>
+    <td class="xl69" align="right" x:num>51.4</td>
+    <td class="xl69" align="right" x:num>54.5</td>
+    <td class="xl69" align="right" x:num>52.3</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>45.3</td>
+    <td class="xl69" align="right" x:num>47.9</td>
+    <td class="xl69" align="right" x:num>53.6</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>52.5</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>49.6</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41609.">2013年12月1日</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>53.9</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>45.1</td>
+    <td class="xl69" align="right" x:num>46.2</td>
+    <td class="xl69" align="right" x:num>52.7</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>52.6</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>48.7</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41640.">2014年1月1日</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>53</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>49.3</td>
+    <td class="xl69" align="right" x:num>45.7</td>
+    <td class="xl69" align="right" x:num>46.5</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>49.2</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41671.">2014年2月1日</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>52.6</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>45.1</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>49.4</td>
+    <td class="xl69" align="right" x:num>46.5</td>
+    <td class="xl69" align="right" x:num>47.7</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41699.">2014年3月1日</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>52.7</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>44.8</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>44.4</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41730.">2014年4月1日</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>52.5</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>44.9</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>48.1</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41760.">2014年5月1日</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+    <td class="xl69" align="right" x:num>52.8</td>
+    <td class="xl69" align="right" x:num>52.3</td>
+    <td class="xl69" align="right" x:num>49.3</td>
+    <td class="xl69" align="right" x:num>46</td>
+    <td class="xl69" align="right" x:num>47.1</td>
+    <td class="xl69" align="right" x:num>52.3</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>50</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41791.">2014年6月1日</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>53</td>
+    <td class="xl69" align="right" x:num>52.8</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>46.2</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>49.2</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41821.">2014年7月1日</td>
+    <td class="xl69" align="right" x:num>51.7</td>
+    <td class="xl69" align="right" x:num>54.2</td>
+    <td class="xl69" align="right" x:num>53.6</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+    <td class="xl69" align="right" x:num>46.4</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>53</td>
+    <td class="xl69" align="right" x:num>49.3</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41852.">2014年8月1日</td>
+    <td class="xl69" align="right" x:num>51.1</td>
+    <td class="xl69" align="right" x:num>53.2</td>
+    <td class="xl69" align="right" x:num>52.5</td>
+    <td class="xl69" align="right" x:num>50</td>
+    <td class="xl69" align="right" x:num>45.9</td>
+    <td class="xl69" align="right" x:num>48.1</td>
+    <td class="xl69" align="right" x:num>51.9</td>
+    <td class="xl69" align="right" x:num>48.5</td>
+    <td class="xl69" align="right" x:num>49.3</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>50</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41883.">2014年9月1日</td>
+    <td class="xl69" align="right" x:num>51.1</td>
+    <td class="xl69" align="right" x:num>53.6</td>
+    <td class="xl69" align="right" x:num>52.2</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>45.6</td>
+    <td class="xl69" align="right" x:num>47.2</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>48.8</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41913.">2014年10月1日</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+    <td class="xl69" align="right" x:num>53.1</td>
+    <td class="xl69" align="right" x:num>51.6</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+    <td class="xl69" align="right" x:num>44.7</td>
+    <td class="xl69" align="right" x:num>47.9</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+    <td class="xl69" align="right" x:num>47.9</td>
+    <td class="xl69" align="right" x:num>45.1</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41944.">2014年11月1日</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>52.5</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+    <td class="xl69" align="right" x:num>43.9</td>
+    <td class="xl69" align="right" x:num>47.2</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>44.7</td>
+    <td class="xl69" align="right" x:num>47.7</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="41974.">2014年12月1日</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>52.2</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>43.8</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>43.2</td>
+    <td class="xl69" align="right" x:num>47.5</td>
+    <td class="xl69" align="right" x:num>48.1</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42005.">2015年1月1日</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>51.7</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+    <td class="xl69" align="right" x:num>44</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>49.6</td>
+    <td class="xl69" align="right" x:num>46.4</td>
+    <td class="xl69" align="right" x:num>41.9</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>47.9</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42036.">2015年2月1日</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+    <td class="xl69" align="right" x:num>51.4</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>48.5</td>
+    <td class="xl69" align="right" x:num>43.8</td>
+    <td class="xl69" align="right" x:num>47</td>
+    <td class="xl69" align="right" x:num>49.4</td>
+    <td class="xl69" align="right" x:num>47.5</td>
+    <td class="xl69" align="right" x:num>43.9</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42064.">2015年3月1日</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>52.1</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>44.1</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+    <td class="xl69" align="right" x:num>48.1</td>
+    <td class="xl69" align="right" x:num>45</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42095.">2015年4月1日</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>52.6</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>48.9</td>
+    <td class="xl69" align="right" x:num>44.7</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42125.">2015年5月1日</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>52.9</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>48.9</td>
+    <td class="xl69" align="right" x:num>44.7</td>
+    <td class="xl69" align="right" x:num>47.5</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>49.4</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42156.">2015年6月1日</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>52.9</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>44.6</td>
+    <td class="xl69" align="right" x:num>47.7</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>48.7</td>
+    <td class="xl69" align="right" x:num>48.1</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42186.">2015年7月1日</td>
+    <td class="xl69" align="right" x:num>50</td>
+    <td class="xl69" align="right" x:num>52.4</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+    <td class="xl69" align="right" x:num>47.9</td>
+    <td class="xl69" align="right" x:num>44</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>44.7</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42217.">2015年8月1日</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+    <td class="xl69" align="right" x:num>51.7</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+    <td class="xl69" align="right" x:num>47.7</td>
+    <td class="xl69" align="right" x:num>44.6</td>
+    <td class="xl69" align="right" x:num>47.2</td>
+    <td class="xl69" align="right" x:num>49.4</td>
+    <td class="xl69" align="right" x:num>47.2</td>
+    <td class="xl69" align="right" x:num>44.9</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>47.9</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42248.">2015年9月1日</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>52.3</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>47.9</td>
+    <td class="xl69" align="right" x:num>43.8</td>
+    <td class="xl69" align="right" x:num>46.8</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69" align="right" x:num>48.1</td>
+    <td class="xl69" align="right" x:num>45.8</td>
+    <td class="xl69" align="right" x:num>47.5</td>
+    <td class="xl69" align="right" x:num>47.9</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42278.">2015年10月1日</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>52.2</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>44.4</td>
+    <td class="xl69" align="right" x:num>47.2</td>
+    <td class="xl69" align="right" x:num>48.8</td>
+    <td class="xl69" align="right" x:num>47.5</td>
+    <td class="xl69" align="right" x:num>44.4</td>
+    <td class="xl69" align="right" x:num>47.2</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42309.">2015年11月1日</td>
+    <td class="xl69" align="right" x:num>49.6</td>
+    <td class="xl69" align="right" x:num>51.9</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>46.4</td>
+    <td class="xl69" align="right" x:num>43</td>
+    <td class="xl69" align="right" x:num>46.7</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>46.7</td>
+    <td class="xl69" align="right" x:num>41.1</td>
+    <td class="xl69" align="right" x:num>47.1</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42339.">2015年12月1日</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+    <td class="xl69" align="right" x:num>52.2</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>47.5</td>
+    <td class="xl69" align="right" x:num>43.6</td>
+    <td class="xl69" align="right" x:num>46.1</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>42.4</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42370.">2016年1月1日</td>
+    <td class="xl69" align="right" x:num>49.4</td>
+    <td class="xl69" align="right" x:num>51.4</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>46.9</td>
+    <td class="xl69" align="right" x:num>43.4</td>
+    <td class="xl69" align="right" x:num>44.6</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>46.4</td>
+    <td class="xl69" align="right" x:num>45.1</td>
+    <td class="xl69" align="right" x:num>46.8</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42401.">2016年2月1日</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>43.9</td>
+    <td class="xl69" align="right" x:num>46.4</td>
+    <td class="xl69" align="right" x:num>47.9</td>
+    <td class="xl69" align="right" x:num>45.8</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42430.">2016年3月1日</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>52.3</td>
+    <td class="xl69" align="right" x:num>51.4</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>45.7</td>
+    <td class="xl69" align="right" x:num>46</td>
+    <td class="xl69" align="right" x:num>52.6</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>55.3</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>48.1</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42461.">2016年4月1日</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>52.2</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>44.8</td>
+    <td class="xl69" align="right" x:num>45.5</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>57.6</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42461.">2016年4月1日</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>52.2</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>44.8</td>
+    <td class="xl69" align="right" x:num>45.5</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>57.6</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>47.8</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42491.">2016年5月1日</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>52.3</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+    <td class="xl69" align="right" x:num>50</td>
+    <td class="xl69" align="right" x:num>45.1</td>
+    <td class="xl69" align="right" x:num>46.8</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>49.6</td>
+    <td class="xl69" align="right" x:num>55.3</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42522.">2016年6月1日</td>
+    <td class="xl69" align="right" x:num>50</td>
+    <td class="xl69" align="right" x:num>52.5</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>49.6</td>
+    <td class="xl69" align="right" x:num>45</td>
+    <td class="xl69" align="right" x:num>46.5</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>47</td>
+    <td class="xl69" align="right" x:num>47.9</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42552.">2016年7月1日</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+    <td class="xl69" align="right" x:num>52.1</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>45.5</td>
+    <td class="xl69" align="right" x:num>46.8</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>49.3</td>
+    <td class="xl69" align="right" x:num>54.6</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42583.">2016年8月1日</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>52.6</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+    <td class="xl69" align="right" x:num>45</td>
+    <td class="xl69" align="right" x:num>46.6</td>
+    <td class="xl69" align="right" x:num>52.6</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>57.2</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42614.">2016年9月1日</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>52.8</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>45.2</td>
+    <td class="xl69" align="right" x:num>46.4</td>
+    <td class="xl69" align="right" x:num>51.9</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>57.5</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42644.">2016年10月1日</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>53.3</td>
+    <td class="xl69" align="right" x:num>52.8</td>
+    <td class="xl69" align="right" x:num>49.2</td>
+    <td class="xl69" align="right" x:num>45.8</td>
+    <td class="xl69" align="right" x:num>46.9</td>
+    <td class="xl69" align="right" x:num>52.4</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+    <td class="xl69" align="right" x:num>62.6</td>
+    <td class="xl69" align="right" x:num>48.1</td>
+    <td class="xl69" align="right" x:num>48.8</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42675.">2016年11月1日</td>
+    <td class="xl69" align="right" x:num>51.7</td>
+    <td class="xl69" align="right" x:num>53.9</td>
+    <td class="xl69" align="right" x:num>53.2</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>46.7</td>
+    <td class="xl69" align="right" x:num>45.9</td>
+    <td class="xl69" align="right" x:num>52.9</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>68.3</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+    <td class="xl69" align="right" x:num>49.2</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42705.">2016年12月1日</td>
+    <td class="xl69" align="right" x:num>51.4</td>
+    <td class="xl69" align="right" x:num>53.3</td>
+    <td class="xl69" align="right" x:num>53.2</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>46.2</td>
+    <td class="xl69" align="right" x:num>44.4</td>
+    <td class="xl69" align="right" x:num>52.1</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>69.6</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>48.9</td>
+    <td class="xl69" align="right" x:num>50</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42736.">2017年1月1日</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>53.1</td>
+    <td class="xl69" align="right" x:num>52.8</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>46.3</td>
+    <td class="xl69" align="right" x:num>45</td>
+    <td class="xl69" align="right" x:num>52.6</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+    <td class="xl69" align="right" x:num>64.5</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>49.2</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42767.">2017年2月1日</td>
+    <td class="xl69" align="right" x:num>51.6</td>
+    <td class="xl69" align="right" x:num>53.7</td>
+    <td class="xl69" align="right" x:num>53</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+    <td class="xl69" align="right" x:num>46</td>
+    <td class="xl69" align="right" x:num>47.6</td>
+    <td class="xl69" align="right" x:num>51.4</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>64.2</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69" align="right" x:num>49.7</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42795.">2017年3月1日</td>
+    <td class="xl69" align="right" x:num>51.8</td>
+    <td class="xl69" align="right" x:num>54.2</td>
+    <td class="xl69" align="right" x:num>53.3</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>46.1</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>53.4</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+    <td class="xl69" align="right" x:num>59.3</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>50</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42826.">2017年4月1日</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>53.8</td>
+    <td class="xl69" align="right" x:num>52.3</td>
+    <td class="xl69" align="right" x:num>50.6</td>
+    <td class="xl69" align="right" x:num>45</td>
+    <td class="xl69" align="right" x:num>48.2</td>
+    <td class="xl69" align="right" x:num>51.9</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+    <td class="xl69" align="right" x:num>51.8</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>49.2</td>
+    <td class="xl69" align="right" x:num>50.5</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42856.">2017年5月1日</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>53.4</td>
+    <td class="xl69" align="right" x:num>52.3</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+    <td class="xl69" align="right" x:num>45.4</td>
+    <td class="xl69" align="right" x:num>46.6</td>
+    <td class="xl69" align="right" x:num>51.5</td>
+    <td class="xl69" align="right" x:num>50</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>48.5</td>
+    <td class="xl69" align="right" x:num>49.4</td>
+    <td class="xl69" align="right" x:num>50.2</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42887.">2017年6月1日</td>
+    <td class="xl69" align="right" x:num>51.7</td>
+    <td class="xl69" align="right" x:num>54.4</td>
+    <td class="xl69" align="right" x:num>53.1</td>
+    <td class="xl69" align="right" x:num>52</td>
+    <td class="xl69" align="right" x:num>47.2</td>
+    <td class="xl69" align="right" x:num>46.3</td>
+    <td class="xl69" align="right" x:num>52.5</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>49.9</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42917.">2017年7月1日</td>
+    <td class="xl69" align="right" x:num>51.4</td>
+    <td class="xl69" align="right" x:num>53.5</td>
+    <td class="xl69" align="right" x:num>52.8</td>
+    <td class="xl69" align="right" x:num>50.9</td>
+    <td class="xl69" align="right" x:num>46.3</td>
+    <td class="xl69" align="right" x:num>46.1</td>
+    <td class="xl69" align="right" x:num>52.7</td>
+    <td class="xl69" align="right" x:num>51.1</td>
+    <td class="xl69" align="right" x:num>57.9</td>
+    <td class="xl69" align="right" x:num>48.5</td>
+    <td class="xl69" align="right" x:num>49.2</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42948.">2017年8月1日</td>
+    <td class="xl69" align="right" x:num>51.7</td>
+    <td class="xl69" align="right" x:num>54.1</td>
+    <td class="xl69" align="right" x:num>53.1</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>46.1</td>
+    <td class="xl69" align="right" x:num>45.5</td>
+    <td class="xl69" align="right" x:num>52.9</td>
+    <td class="xl69" align="right" x:num>51.4</td>
+    <td class="xl69" align="right" x:num>65.3</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>49.3</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="42979.">2017年9月1日</td>
+    <td class="xl69" align="right" x:num>52.4</td>
+    <td class="xl69" align="right" x:num>54.7</td>
+    <td class="xl69" align="right" x:num>54.8</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>47.4</td>
+    <td class="xl69" align="right" x:num>44.2</td>
+    <td class="xl69" align="right" x:num>53.8</td>
+    <td class="xl69" align="right" x:num>51.1</td>
+    <td class="xl69" align="right" x:num>68.4</td>
+    <td class="xl69" align="right" x:num>48.9</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>49.3</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="43009.">2017年10月1日</td>
+    <td class="xl69" align="right" x:num>51.6</td>
+    <td class="xl69" align="right" x:num>53.4</td>
+    <td class="xl69" align="right" x:num>52.9</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+    <td class="xl69" align="right" x:num>45.6</td>
+    <td class="xl69" align="right" x:num>46.1</td>
+    <td class="xl69" align="right" x:num>53.2</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>63.4</td>
+    <td class="xl69" align="right" x:num>48.6</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>48.7</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="43040.">2017年11月1日</td>
+    <td class="xl69" align="right" x:num>51.8</td>
+    <td class="xl69" align="right" x:num>54.3</td>
+    <td class="xl69" align="right" x:num>53.6</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+    <td class="xl69" align="right" x:num>46.6</td>
+    <td class="xl69" align="right" x:num>46.1</td>
+    <td class="xl69" align="right" x:num>53.5</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>59.8</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+    <td class="xl69" align="right" x:num>48.8</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="43070.">2017年12月1日</td>
+    <td class="xl69" align="right" x:num>51.6</td>
+    <td class="xl69" align="right" x:num>54</td>
+    <td class="xl69" align="right" x:num>53.4</td>
+    <td class="xl69" align="right" x:num>51.9</td>
+    <td class="xl69" align="right" x:num>46.3</td>
+    <td class="xl69" align="right" x:num>45.8</td>
+    <td class="xl69" align="right" x:num>53.6</td>
+    <td class="xl69" align="right" x:num>51.2</td>
+    <td class="xl69" align="right" x:num>62.2</td>
+    <td class="xl69" align="right" x:num>48</td>
+    <td class="xl69" align="right" x:num>48.5</td>
+    <td class="xl69" align="right" x:num>49.3</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="43101.">2018年1月1日</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>53.5</td>
+    <td class="xl69" align="right" x:num>52.6</td>
+    <td class="xl69" align="right" x:num>49.5</td>
+    <td class="xl69" align="right" x:num>45.3</td>
+    <td class="xl69" align="right" x:num>47</td>
+    <td class="xl69" align="right" x:num>52.9</td>
+    <td class="xl69" align="right" x:num>50.4</td>
+    <td class="xl69" align="right" x:num>59.7</td>
+    <td class="xl69" align="right" x:num>48.8</td>
+    <td class="xl69" align="right" x:num>48.3</td>
+    <td class="xl69" align="right" x:num>49.2</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="43132.">2018年2月1日</td>
+    <td class="xl69" align="right" x:num>50.3</td>
+    <td class="xl69" align="right" x:num>50.7</td>
+    <td class="xl69" align="right" x:num>51</td>
+    <td class="xl69" align="right" x:num>49</td>
+    <td class="xl69" align="right" x:num>44.9</td>
+    <td class="xl69" align="right" x:num>46.7</td>
+    <td class="xl69" align="right" x:num>50.8</td>
+    <td class="xl69" align="right" x:num>49.8</td>
+    <td class="xl69" align="right" x:num>53.4</td>
+    <td class="xl69" align="right" x:num>49.3</td>
+    <td class="xl69" align="right" x:num>48.1</td>
+    <td class="xl69" align="right" x:num>48.4</td>
+   </tr>
+   <tr height="18" style='height:13.50pt;'>
+    <td class="xl68" height="18" align="right" style='height:13.50pt;' x:num="43160.">2018年3月1日</td>
+    <td class="xl69" align="right" x:num>51.5</td>
+    <td class="xl69" align="right" x:num>53.1</td>
+    <td class="xl69" align="right" x:num>53.3</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>46</td>
+    <td class="xl69" align="right" x:num>47.3</td>
+    <td class="xl69" align="right" x:num>53</td>
+    <td class="xl69" align="right" x:num>51.3</td>
+    <td class="xl69" align="right" x:num>53.4</td>
+    <td class="xl69" align="right" x:num>49.6</td>
+    <td class="xl69" align="right" x:num>49.1</td>
+    <td class="xl69" align="right" x:num>50.1</td>
+   </tr>
+   <![if supportMisalignedColumns]>
+    <tr width="0" style='display:none;'>
+     <td width="117" style='width:88;'></td>
+     <td width="87" style='width:65;'></td>
+     <td width="75" style='width:56;'></td>
+     <td width="92" style='width:69;'></td>
+     <td width="128" style='width:96;'></td>
+     <td width="110" style='width:83;'></td>
+     <td width="128" style='width:96;'></td>
+     <td width="92" style='width:69;'></td>
+     <td width="75" style='width:56;'></td>
+     <td width="199" style='width:149;'></td>
+     <td width="128" style='width:96;'></td>
+     <td width="110" style='width:83;'></td>
+     <td width="163" style='width:122;'></td>
+    </tr>
+   <![endif]>
+  </table>
+ </body>
+</html>
