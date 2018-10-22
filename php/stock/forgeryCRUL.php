@@ -24,23 +24,33 @@ function Rand_IP(){
 }
 
 //抓取页面内容
-function Curl($url){
+function Curl($url,$referer){
         $ch2 = curl_init();
         $user_agent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Safari/537.36";//模拟windows用户正常访问
         curl_setopt($ch2, CURLOPT_URL, $url);
         curl_setopt($ch2, CURLOPT_TIMEOUT, 10);
         curl_setopt($ch2, CURLOPT_HTTPHEADER, array('X-FORWARDED-FOR:'.Rand_IP(), 'CLIENT-IP:'.Rand_IP()));
 //追踪返回302状态码，继续抓取
-        curl_setopt($ch2, CURLOPT_HEADER, true); 
+        //curl_setopt($ch2, CURLOPT_HEADER, true); 
         curl_setopt($ch2, CURLOPT_RETURNTRANSFER, true); 
         curl_setopt($ch2, CURLOPT_FOLLOWLOCATION, true);
 
         curl_setopt($ch2, CURLOPT_NOBODY, false);
-        curl_setopt($ch2, CURLOPT_REFERER, 'http://www.sse.com.cn/market/othersdata/margin/sum/');//模拟来路
+        curl_setopt($ch2, CURLOPT_REFERER, $referer);//模拟来路
         curl_setopt($ch2, CURLOPT_USERAGENT, $user_agent);
         $temp = curl_exec($ch2);
         curl_close($ch2);
         return $temp;
 }
-echo '上海证券交易所：融资融券汇总数据';
-echo Curl('http://query.sse.com.cn/marketdata/tradedata/queryMargin.do?jsonCallBack=jsonpCallback51522&isPagination=true&beginDate=20180919&endDate=20181019&tabType=&stockCode=&pageHelp.pageSize=1000&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5&_=1539912441568');
+echo '<h1>上海证券交易所：融资融券汇总数据</h1>';
+$jsonSHZQ =  Curl('http://query.sse.com.cn/marketdata/tradedata/queryMargin.do?jsonCallBack=jsonpCallback51522&isPagination=true&beginDate=20180919&endDate=20181019&tabType=&stockCode=&pageHelp.pageSize=1000&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5&_=1539912441568',
+        'http://www.sse.com.cn/market/othersdata/margin/sum/');
+$jsonSHZQ = substr($jsonSHZQ,19,-1);
+$arrSHZQ = json_decode($jsonSHZQ,true);
+print_r( $arrSHZQ['pageHelp']['data'] ) ;
+//print_r( $arrSHZQ );
+
+echo '<h1>深圳证券交易所：融资融券汇总数据</h1>';
+$jsonSZZQ = Curl('http://www.szse.cn/api/report/ShowReport/data?SHOWTYPE=JSON&CATALOGID=1837_xxpl&loading=first&random=0.7492411967764552','http://www.szse.cn/disclosure/margin/margin/index.html');
+$arrSZZQ = json_decode($jsonSZZQ,true);
+print_r( $arrSZZQ );
