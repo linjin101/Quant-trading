@@ -43,7 +43,7 @@ function Curl($url,$referer){
         return $temp;
 }
 echo '<h1>上海证券交易所：融资融券汇总数据</h1>';
-$jsonSHZQ =  Curl('http://query.sse.com.cn/marketdata/tradedata/queryMargin.do?jsonCallBack=jsonpCallback51522&isPagination=true&beginDate=20180919&endDate=20181019&tabType=&stockCode=&pageHelp.pageSize=1000&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5&_=1539912441568',
+$jsonSHZQ =  Curl('http://query.sse.com.cn/marketdata/tradedata/queryMargin.do?jsonCallBack=jsonpCallback51522&isPagination=true&beginDate=20181019&endDate=20181022&tabType=&stockCode=&pageHelp.pageSize=1000&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5&_=1539912441568',
         'http://www.sse.com.cn/market/othersdata/margin/sum/');
 $jsonSHZQ = substr($jsonSHZQ,19,-1);
 $arrSHZQ = json_decode($jsonSHZQ,true);
