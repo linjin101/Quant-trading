@@ -8,18 +8,18 @@
  */
 include_once '../vendor/autoload.php'; //加载composer
 include_once '../common/config.php';
-include_once '../common/mongodb.php'; //加载数据库操作类 
-include_once '../common/mongodbStock.php'; //加载股票专用数据操作类 
+//include_once '../common/mongodb.php'; //加载数据库操作类 
+//include_once '../common/mongodbStock.php'; //加载股票专用数据操作类 
 include_once '../common/common.php';
 
 use QL\QueryList;
 
-$MongoDBOP = new MongoDBOP();
+//$MongoDBOP = new MongoDBOP();
 $url_page = 'http://quote.eastmoney.com/stocklist.html';
-//$string = getCurl($url_page);
-//$string = mb_convert_encoding($string, 'UTF-8', 'gb2312');
-$string = QueryList::get($url_page)->getHtml();
-$tt = QueryList::html($string)->find('a')->attrs('href')->all();
+$string = getCurl($url_page);
+//$string = mb_convert_encoding($string, 'UTF-8', 'GB2312');
+//$string = QueryList::get($url_page)->removeHead()->encoding('UTF-8','GB2312')->getHtml();
+$tt = QueryList::html($string)->removeHead()->find('#quotesearch ul li a')->attrs('href')->all();
 print_r($tt);
 exit();
 
@@ -33,6 +33,8 @@ $stockLink = QueryList::html($string)->find('a')->attrs('href')->all();
 //exit(); 
 //echo $string; 
 //exit();
+
+/*
 foreach ($stockName as $link => $value) {
     $strStockName = $stockName[$link];
     $pos = strrpos($strStockName, '(');
@@ -50,3 +52,4 @@ foreach ($stockName as $link => $value) {
 }
 $rowlist = $MongoDBOP->mongoSearch('test.stocklist');
 print_r($rowlist);
+*/
