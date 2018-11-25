@@ -11,7 +11,7 @@
  * web示例：http://localhost/collection.com/index.php?rss_url=base.php&rss_type=web
  */
 date_default_timezone_set('PRC'); //设置中国时区 
-define('ROOT_PATH', str_replace('\\', '/', dirname(__FILE__)) . "/"); //网站根目录
+define('__ROOT_PATH__', str_replace('\\', '/', dirname(__FILE__)) . "/"); //网站根目录
 include_once 'vendor/autoload.php'; //加载composer
 
 include_once 'mongodb.php'; //加载数据库操作类 

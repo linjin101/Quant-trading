@@ -31,6 +31,7 @@ class MongoDBOP {
         }
         $this->manager->executeBulkWrite($collection, $bulk);
     }
+
     /**
      * 
      * @param type $collection
@@ -48,12 +49,14 @@ class MongoDBOP {
 
     public function mongoSearch($collection, $filter = [], $options = []) {
         $query = new MongoDB\Driver\Query($filter, $options);
-        $rows = $this->manager->executeQuery($collection, $query); // $mongo contains the connection object to MongoDB
-        $rowslist = array();
+        $rows = $this->manager->executeQuery($collection, $query)->toArray(); // $mongo contains the connection object to MongoDB
+        $rowlist = array();
+        // mognodb stdClass as array
         foreach ($rows as $document) {
-            array_push($rowslist, $document);
-        }
-        return $rowslist;
+            $document = json_decode(json_encode($document), true);
+            array_push($rowlist, $document);
+        } 
+        return $rowlist;
     }
 
 }

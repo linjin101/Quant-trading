@@ -8,33 +8,21 @@
  */
 include_once '../vendor/autoload.php'; //加载composer
 include_once '../common/config.php';
-//include_once '../common/mongodb.php'; //加载数据库操作类 
-//include_once '../common/mongodbStock.php'; //加载股票专用数据操作类 
+include_once '../common/mongodb.php'; //加载数据库操作类 
+include_once '../common/mongodbStock.php'; //加载股票专用数据操作类 
 include_once '../common/common.php';
 
 use QL\QueryList;
 
-//$MongoDBOP = new MongoDBOP();
+$MongoDBOP = new MongoDBOP();
+//页面地址
 $url_page = 'http://quote.eastmoney.com/stocklist.html';
-$string = getCurl($url_page);
-//$string = mb_convert_encoding($string, 'UTF-8', 'GB2312');
-//$string = QueryList::get($url_page)->removeHead()->encoding('UTF-8','GB2312')->getHtml();
-$tt = QueryList::html($string)->removeHead()->find('#quotesearch ul li a')->attrs('href')->all();
-print_r($tt);
-exit();
+//用QueryList抓取页面Html并且转码
+$string = QueryList::get($url_page)->removeHead()->encoding('UTF-8','GB2312')->getHtml();
+//解析页面HTML
+$stockName = QueryList::html($string)->find('#quotesearch ul li a')->texts()->all();
+$stockLink = QueryList::html($string)->find('#quotesearch ul li a')->attrs('href')->all();
 
-
-$stockName = QueryList::html($string)->find('a')->texts()->all();
-$stockLink = QueryList::html($string)->find('a')->attrs('href')->all();
-//$arrStockName = $stockName->attrs('href')->all(); 
-//$arrStockTitle = $stockName->texts()->all(); 
-//print_r($stockName  );
-//print_r($stockLink  ); 
-//exit(); 
-//echo $string; 
-//exit();
-
-/*
 foreach ($stockName as $link => $value) {
     $strStockName = $stockName[$link];
     $pos = strrpos($strStockName, '(');
@@ -52,4 +40,3 @@ foreach ($stockName as $link => $value) {
 }
 $rowlist = $MongoDBOP->mongoSearch('test.stocklist');
 print_r($rowlist);
-*/
