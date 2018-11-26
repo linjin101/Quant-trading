@@ -18,56 +18,60 @@ use QL\QueryList;
 $logfile = __ROOT_PATH__.'/logStockGN.txt';
 
 $MongoDBOP = new MongoDBOP();
-// $options指定选择列[ 'projection' =>['code'=>1]]
-$rowlist = $MongoDBOP->mongoSearch('test.stocklist', [], ['projection' => ['code' => 1, '_id' => 0]]);
-//股票列表获取
-$stockList = array();
-foreach ($rowlist as $key) {
+// $options指定选择列['projection' => ['code' => 1,'name'=> 1,'_id' => 0]] ,股票列表获取
+$rowlist = $MongoDBOP->mongoSearch('test.stocklist', [], ['projection' => ['code' => 1,'name'=> 1,'_id' => 0]]);
 
-    array_push($stockList, $key['code']);
-}
-//$stockList = ['300059', '300015', '600460', '300124'];
 $i = 1;
-foreach ($stockList as $stockCode) {
-    $url_page = 'http://basic.10jqka.com.cn/' . $stockCode . '/concept.html';
-    $string = getCurl($url_page);
-    //$str_encode = mb_convert_encoding($string, 'UTF-8', 'GBK');
+foreach ($rowlist as $stockCode) {
+    $url_page = 'http://basic.10jqka.com.cn/' . $stockCode['code'] . '/concept.html'; //$stockCode['code']
+
+//    $string = getCurl($url_page);
     //解析股票名称和代码
-    $stockName = QueryList::html($string)->find('h1>a')->attrs('title');
-    $arrStock = $stockName->all();
+//    $stockName = QueryList::html($string)->removeHead()->encoding('UTF-8','GBK')->find('h1>a')->attrs('title');
+//    $arrStock = $stockName->all();
+
     // 基本的数据校验Array( [0] => 浦发银行 600000 )
-    if (!empty($arrStock[0])) {
-        $arrStockName = explode(' ', $arrStock[0]);
-        if (!empty($arrStockName[0]) && !empty($arrStockName[1])) {
+//    if (!empty($arrStock[0])) {
+//        $arrStockName = explode(' ', $arrStock[0]);
+//        if (!empty($arrStockName[0]) && !empty($arrStockName[1])) {
+        
+            $string = QueryList::get($url_page)->removeHead()->encoding('UTF-8','GBK')->getHtml();
+
             //解析股票概念
-            $table = QueryList::html($string)->find('table');
+            $table = QueryList::html($string)->find('.gnContent');
             $tableRows = $table->find('tr:gt(0)')->find('.gnName')->texts();
+            
+//            print_r($tableRows->all());
+//            exit();
             $arrGN = $tableRows->all();
 
-            $arrStockGN = array('code' => $arrStockName[1], 'name' => $arrStockName[0], 'GN' => $arrGN);
-
-            
+            $arrStockGN = array('code' => $stockCode['code'], 'name' => $stockCode['name'], 'GN' => $arrGN);
+//            if ( empty($arrStockGN) ){
+                print_r($arrStockGN);
+                file_put_contents($logfile, "inline:".$i.":".$stockCode['code']."\r\n", FILE_APPEND | LOCK_EX);
+//            }
+//            echo $i."\r\n";
             $MongoDBOP->mongoInsert("test.stocktemp2", $arrStockGN);
-            print_r($arrStockGN);
-            if ($i % 3 == 0) {
-                sleep(  rand(1,5)  );
+//            print_r($arrStockGN);
+            if ($i % 5 == 0) {
+                sleep(  rand(1,3)  );
             }
-        }else{
-            file_put_contents($logfile, "inline:".$i.":".$stockCode."\r\n", FILE_APPEND | LOCK_EX);
-        }
-    }
-    else
-    {
-        file_put_contents($logfile, $i.":".$stockCode."\r\n", FILE_APPEND | LOCK_EX);
-    }
+//        }else{
+//            file_put_contents($logfile, "inline:".$i.":".$stockCode."\r\n", FILE_APPEND | LOCK_EX);
+//        }
+//    }
+//    else
+//    {
+//        file_put_contents($logfile, $i.":".$stockCode."\r\n", FILE_APPEND | LOCK_EX);
+//    }
     $i++;
 }
 /*
   概念数组多条件查询db.getCollection('stocktemp2').find( { $and: [ { GN: { $eq: '5G' } }, { GN: { $eq: '军工' } }, { GN: { $eq: '创投' } } ] })
   查询参数输入：[ '$and'=> [ [ 'GN'=> [ '$eq'=>'上海国资改革' ]], [ 'GN'=> [ '$eq'=>'上海自贸区' ]], [ 'GN'=> [ '$eq'=>'MSCI概念' ]] ] ]
-  cd D:\dev\Quant-trading\php\stock\caiji
- * D:\dev\phpStudy\PHPTutorial\php\php-7.2.1-nts\php stockgn.php
+cd D:\dev\Quant-trading\php\stock\caiji
+D:\dev\phpStudy\PHPTutorial\php\php-7.2.1-nts\php stockgn.php
  */
-$rowlist = $MongoDBOP->mongoSearch('test.stocktemp2', []);
+//$rowlist = $MongoDBOP->mongoSearch('test.stocktemp2', []);
 //print_r($rowlist);
 
