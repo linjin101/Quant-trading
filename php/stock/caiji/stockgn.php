@@ -15,12 +15,15 @@ include_once '../common/common.php';
 
 use QL\QueryList;
 
-$logfile = __ROOT_PATH__.'/logStockGN.txt';
+$logHtml = __ROOT_PATH__.'stockGN/';
+$logfile = __ROOT_PATH__.'logStockGN.txt';
 
 $MongoDBOP = new MongoDBOP();
 // $options指定选择列['projection' => ['code' => 1,'name'=> 1,'_id' => 0]] ,股票列表获取
-$rowlist = $MongoDBOP->mongoSearch('test.stocklist', [], ['projection' => ['code' => 1,'name'=> 1,'_id' => 0]]);
-
+//$rowlist = $MongoDBOP->mongoSearch('test.stocklist', [], ['projection' => ['code' => 1,'name'=> 1,'_id' => 0]]);
+//检查没有采集成功的code和gn为空的重新采集
+$m = new MongoDBStock();
+$rowlist = $m->getEmptyStockGN();
 $i = 1;
 foreach ($rowlist as $stockCode) {
     $url_page = 'http://basic.10jqka.com.cn/' . $stockCode['code'] . '/concept.html'; //$stockCode['code']
@@ -35,25 +38,28 @@ foreach ($rowlist as $stockCode) {
 //        $arrStockName = explode(' ', $arrStock[0]);
 //        if (!empty($arrStockName[0]) && !empty($arrStockName[1])) {
         
-            $string = QueryList::get($url_page)->removeHead()->encoding('UTF-8','GBK')->getHtml();
-
+//            $string = QueryList::get($url_page)->removeHead()->encoding('UTF-8','GBK')->getHtml();
+            // 概念股票HTML存文件
+//            file_put_contents($logHtml.$stockCode['code'].'.html', $string );
             //解析股票概念
-            $table = QueryList::html($string)->find('.gnContent');
+//            $table = QueryList::html($string)->find('.gnContent');
+            $table = QueryList::get($url_page)->removeHead()->encoding('UTF-8','GBK')->find('.gnContent');
             $tableRows = $table->find('tr:gt(0)')->find('.gnName')->texts();
-            
-//            print_r($tableRows->all());
+            // 概念股票HTML存文件
+            file_put_contents($logHtml.$stockCode['code'].'.html', $table->htmls() );
+            print_r($tableRows->all());
 //            exit();
             $arrGN = $tableRows->all();
 
             $arrStockGN = array('code' => $stockCode['code'], 'name' => $stockCode['name'], 'GN' => $arrGN);
 //            if ( empty($arrStockGN) ){
                 print_r($arrStockGN);
-                file_put_contents($logfile, "inline:".$i.":".$stockCode['code']."\r\n", FILE_APPEND | LOCK_EX);
+                file_put_contents($logfile, $i.":".$stockCode['code']."\r\n", FILE_APPEND | LOCK_EX);
 //            }
 //            echo $i."\r\n";
-            $MongoDBOP->mongoInsert("test.stocktemp2", $arrStockGN);
+            $MongoDBOP->mongoInsert("test.stockgn", $arrStockGN);
 //            print_r($arrStockGN);
-            if ($i % 5 == 0) {
+            if ($i % 3 == 0) {
                 sleep(  rand(1,3)  );
             }
 //        }else{

@@ -5,6 +5,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  * http://quote.eastmoney.com/stocklist.html
+ * 导出
+ * D:\Program Files\MongoDB\Server\4.0\bin>mongoexport -h 127.0.0.1 -d test -c stocklist -o D:\Database\temp\stocklist.json
+ * 导入
+ * mongoimport --db test --collection stocklist --file d:/Database/temp/stocklist.json
+ * 
+ * 搜索输入框特效
+ * http://www.17sucai.com/pins/demo-show?id=7061
  */
 include_once '../vendor/autoload.php'; //加载composer
 include_once '../common/config.php';
