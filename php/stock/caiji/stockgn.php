@@ -25,6 +25,7 @@ $MongoDBOP = new MongoDBOP();
 $m = new MongoDBStock();
 $rowlist = $m->getEmptyStockGN();
 $i = 1;
+
 foreach ($rowlist as $stockCode) {
     $url_page = 'http://basic.10jqka.com.cn/' . $stockCode['code'] . '/concept.html'; //$stockCode['code']
 
@@ -38,15 +39,17 @@ foreach ($rowlist as $stockCode) {
 //        $arrStockName = explode(' ', $arrStock[0]);
 //        if (!empty($arrStockName[0]) && !empty($arrStockName[1])) {
         
-//            $string = QueryList::get($url_page)->removeHead()->encoding('UTF-8','GBK')->getHtml();
+            $string = QueryList::get($url_page)->removeHead()->encoding('UTF-8','GBK')->getHtml();
+             
             // 概念股票HTML存文件
 //            file_put_contents($logHtml.$stockCode['code'].'.html', $string );
             //解析股票概念
-//            $table = QueryList::html($string)->find('.gnContent');
-            $table = QueryList::get($url_page)->removeHead()->encoding('UTF-8','GBK')->find('.gnContent');
-            $tableRows = $table->find('tr:gt(0)')->find('.gnName')->texts();
+            $table = QueryList::html($string);
+
+//            $table = QueryList::get($url_page)->removeHead()->encoding('UTF-8','GBK')->find('.gnContent');
+            $tableRows = $table->find('.gnContent')->find('tr:gt(0)')->find('.gnName')->texts();
             // 概念股票HTML存文件
-            file_put_contents($logHtml.$stockCode['code'].'.html', $table->htmls() );
+//            file_put_contents($logHtml.$stockCode['code'].'.html', $table->htmls() );
             print_r($tableRows->all());
 //            exit();
             $arrGN = $tableRows->all();
@@ -54,12 +57,21 @@ foreach ($rowlist as $stockCode) {
             $arrStockGN = array('code' => $stockCode['code'], 'name' => $stockCode['name'], 'GN' => $arrGN);
 //            if ( empty($arrStockGN) ){
                 print_r($arrStockGN);
-                file_put_contents($logfile, $i.":".$stockCode['code']."\r\n", FILE_APPEND | LOCK_EX);
+//                file_put_contents($logfile, $i.":".$stockCode['code']."\r\n", FILE_APPEND | LOCK_EX);
 //            }
 //            echo $i."\r\n";
-            $MongoDBOP->mongoInsert("test.stockgn", $arrStockGN);
+            
+            $MongoDBOP->mongoInsert("test.stockgntmp", $arrStockGN);
+            /**
+             * 释放资源，销毁内存占用。在涉及到循环采集大量网页的场景下，这个方法是很有用的。
+             * 注意：此方法并不是销毁QueryList对象，只是销毁phpQuery Document占用的内存，
+             * 所以调用此方法后，原先设置过HTML的QueryList对象都会丢失设置的HTML，
+             * 需要重新调用html或者get方法设置HTML.
+             */
+            $table->destruct();
 //            print_r($arrStockGN);
             if ($i % 3 == 0) {
+                exit();
                 sleep(  rand(1,3)  );
             }
 //        }else{

@@ -13,9 +13,9 @@ include_once 'common/common.php';
 
  //查询概念是否变化，然后更新
 $m = new MongoDBStock();
-$t = $m->MongoUpdateQuery('test.stocktemp', ['code'=>'300059'], ['GN'=>['期货概念','互联网金融','互联网+','ddwerew']]);
-var_dump($t);
-$rowlist = $m->mongoSearch('test.stocktemp',['code'=>'300059'] );
+//$t = $m->MongoUpdateQuery('test.stockgn', ['code'=>'300059'], ['GN'=>['期货概念','互联网金融','互联网+','ddwerew']]);
+//var_dump($t);
+$rowlist = $m->mongoSearch('test.stockgn',['code'=>'300059'] );
 print_r($rowlist);
 /*
 $m = new MongoDBOP();
