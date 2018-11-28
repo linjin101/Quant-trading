@@ -30,7 +30,7 @@ foreach ($rowlist as $stockCode) {
     $arrGN = $tableRows->all();
 
     $arrStockGN = array('code' => $stockCode['code'], 'name' => $stockCode['name'], 'GN' => $arrGN);
-    $m->mongoInsert("test.stockgn", $arrStockGN);
+    $m->mongoInsert("test.stockgn-".date("Y-m-d"), $arrStockGN);
     /**
      * 释放资源，销毁内存占用。在涉及到循环采集大量网页的场景下，这个方法是很有用的。
      * 注意：此方法并不是销毁QueryList对象，只是销毁phpQuery Document占用的内存，
@@ -50,8 +50,8 @@ foreach ($rowlist as $stockCode) {
     $i++;
 }
 /*
-  概念数组多条件查询db.getCollection('stocktemp2').find( { $and: [ { GN: { $eq: '5G' } }, { GN: { $eq: '军工' } }, { GN: { $eq: '创投' } } ] })
-  查询参数输入：[ '$and'=> [ [ 'GN'=> [ '$eq'=>'上海国资改革' ]], [ 'GN'=> [ '$eq'=>'上海自贸区' ]], [ 'GN'=> [ '$eq'=>'MSCI概念' ]] ] ]
+  概念数组多条件查询db.getCollection('stocktemp2').find( { $and: [ { GN: { $eq: '5G' } }, { GN: { $eq: '军工' }}] } )
+  查询参数输入：[ '$and'=> [ [ 'GN'=> [ '$eq'=>'上海国资改革' ]], [ 'GN'=> [ '$eq'=>'上海自贸区' ]]  ] ]
 cd D:\dev\Quant-trading\php\stock\caiji
 D:
 D:\dev\phpStudy\PHPTutorial\php\php-7.2.1-nts\php stockgn.php
