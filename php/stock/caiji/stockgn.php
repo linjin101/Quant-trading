@@ -16,21 +16,27 @@ use QL\QueryList;
 //$rowlist = $MongoDBOP->mongoSearch('test.stocklist', [], ['projection' => ['code' => 1,'name'=> 1,'_id' => 0]]);
 //检查没有采集成功的code和gn为空的重新采集
 $m = new MongoDBStock();
-$rowlist = $m->mongoSearch('test.stocklist', [], ['projection' => ['code' => 1, 'name' => 1, '_id' => 0]]);
+$rowlist = $m->mongoSearch('test.stocklist', [], ['projection' => ['code' => 1, 'name' => 1, '_id' => 0]]); // ['code'=>'300343']
 
 //$rowlist = $m->getEmptyStockGN();
 $i = 1;
 foreach ($rowlist as $stockCode) {
-    $url_page = 'http://basic.10jqka.com.cn/' . $stockCode['code'] . '/concept.html';
+    $url_page = 'http://basic.10jqka.com.cn/' . $stockCode['code'] . '/concept.html';// $stockCode['code']
 
     $string = QueryList::get($url_page)->removeHead()->encoding('UTF-8', 'GBK')->getHtml();
-    //解析股票概念
+    //解析常规概念
     $table = QueryList::html($string);
     $tableRows = $table->find('.gnContent')->find('tr:gt(0)')->find('.gnName')->texts();
     $arrGN = $tableRows->all();
-
+    
+    //解析新兴概念,其他概念
+    $tableNew = $table->find('.gnContent')->find('tr:gt(0)')->find('.gnStockList')->texts();
+    $arrGNnew = $tableNew->all();
+    //常规概念+新兴概念+其他概念
+    $arrGN = array_merge($arrGN,$arrGNnew);
+    
     $arrStockGN = array('code' => $stockCode['code'], 'name' => $stockCode['name'], 'GN' => $arrGN);
-    $m->mongoInsert("test.stockgn-".date("Y-m-d"), $arrStockGN);
+    $m->mongoInsert("test.stockgn", $arrStockGN); // date("Y-m-d")
     /**
      * 释放资源，销毁内存占用。在涉及到循环采集大量网页的场景下，这个方法是很有用的。
      * 注意：此方法并不是销毁QueryList对象，只是销毁phpQuery Document占用的内存，
@@ -45,7 +51,7 @@ foreach ($rowlist as $stockCode) {
      * Debug
      * ************************************************************************* */
     echo $i . "\r\n";
-    print_r($arrStockGN);
+    print_r($arrStockGN); 
 
     $i++;
 }
@@ -55,4 +61,9 @@ foreach ($rowlist as $stockCode) {
 cd D:\dev\Quant-trading\php\stock\caiji
 D:
 D:\dev\phpStudy\PHPTutorial\php\php-7.2.1-nts\php stockgn.php
+ * 
+ * 
+cd E:\git\Quant-trading\php\stock\caiji\
+E:
+G:\phpStudy\PHPTutorial\php\php-7.2.1-nts\php stockgn.php
  */
