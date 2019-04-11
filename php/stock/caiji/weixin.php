@@ -20,7 +20,6 @@ include_once '../common/config.php';
 include_once '../common/mongodb.php'; //加载数据库操作类 
 include_once '../common/mongodbStock.php'; //加载股票专用数据操作类 
 include_once '../common/common.php';
-include_once '../common/function.php';
 
 use QL\QueryList;
 
@@ -46,11 +45,11 @@ matches[2] 图片的url
 /(<img[\s\S]*?(><\/img>|>))/i
  */
 
-//preg_match_all('/<img(.*?)src=\"(.*?)\"(.*?)>/i', $string, $matchimg);
-
+//preg_match_all('/<img(.*?)src=\"(.*?)\"(.*?)>/ii', $string, $matchimg);
+//print_r($matchimg);exit;
 //正则表达式获取图片data-src
 preg_match_all('/<img(.*?)data-src=\"(.*?)\"(.*?)>/i', $string, $matchimg);
-
+//print_r($matchimg);exit;
 //图片文件保存根目录
 $ROOT= 'D:/dev/Quant-trading/php/stock/caiji';
 foreach ($matchimg[2] as $k => $v) {
@@ -69,7 +68,7 @@ foreach ($matchimg[2] as $k => $v) {
         $ext = $query['wx_fmt'];//后缀名解析
         $fileName = md5( $img_url) . '.' . $ext;//随机文件名生成
         $filePath = $ROOT . '/upload/' . date('Ymd') . '/';//图片存放目录
-        $imgsrc =  '/upload/' . date('Ymd') . '/' . $fileName;//图片在线访问地址生成 'http://www.stock.com/caiji' .
+        $imgsrc =  date('Ymd') . '/' . $fileName;//图片在线访问地址生成 'http://www.stock.com/caiji' .
         if (!is_dir($filePath)) {
             mkdir($filePath, 0777, true);//目录创建
         }
@@ -83,13 +82,14 @@ foreach ($matchimg[2] as $k => $v) {
 //            $string = str_replace($v, '', $string);
         } else {
             //如果有src就用src ,如果没有src就用data-src
+			/*
             preg_match("/data-src=\"([^\"]*?)\"/", $v, $datasrc);
             $img_v = preg_replace("/data-src=\"([^\"]*?)\"/", "", $v);
             preg_match("/src=\"([^\"]*?)\"/", $img_v, $new_src);
             if (empty($new_src) && !empty($datasrc[1])) {
                 $string = preg_replace("/data-src=\"([^\"]*?)\"/", "src=\"" . $datasrc[1] . "\"", $string, 1);
-            }
-            //把图片地址换成亚马逊的
+            }*/
+            //把图片地址换成本地
             $string = str_replace($img_url,$imgsrc, $string);
         }
     }
