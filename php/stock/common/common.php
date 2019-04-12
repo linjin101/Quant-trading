@@ -35,8 +35,7 @@ function getCurl($url) {
  * @return type
  * 
  */
-function getProxyCurl($url, $user_agent, $proxy, $proxy_port, $referer, $cookie_file
-) {
+function getProxyCurl($url, $user_agent, $proxy, $proxy_port, $referer, $cookie_file) {
 
     $ch = curl_init();
 
@@ -89,4 +88,42 @@ function object_array($array) {
              }  
      }  
      return $array;  
+}
+
+/**
+ * pring_r()调试输出
+ * @param $strDebug
+ */
+function ddd($strDebug){
+    print_r($strDebug);
+    exit();
+}
+
+/**
+ * echo调试输出
+ * @param $strDebug
+ */
+function dde($strDebug){
+    echo($strDebug);
+    exit();
+}
+
+/**
+ * Object转换json，然后转换成数组
+ * @param $object
+ * @return mixed
+ */
+function json_arr($object){
+    return objectToarray($object);
+}
+
+/**
+ * Object转换json，然后转换成数组
+ * @param $object
+ * @return mixed
+ */
+function objectToarray($object){
+    $objJson = json_encode($object);//object转换成json格式
+    $arrJson = json_decode($objJson,TRUE);//json格式转换成Array
+    return $arrJson;
 }
