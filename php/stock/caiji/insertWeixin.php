@@ -20,8 +20,14 @@
 
 <?php
 
-// page 122
+// page 64
 //http://www.test.com/caiji/insertWeixin.php
+/*
+ * 
+导入json命令：mongoimport --db test --collection url --file D:\dev\Quant-trading\php\stock\caiji\1423.json
+ *  
+ *  
+ */
 include_once '../common/config.php';
 include_once '../common/mongodb.php'; //加载数据库操作类 
 include_once '../common/mongodbStock.php'; //加载股票专用数据操作类 
