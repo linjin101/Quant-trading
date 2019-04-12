@@ -20,7 +20,7 @@
 
 <?php
 
-// page 243
+// page 122
 //http://www.test.com/caiji/insertWeixin.php
 include_once '../common/config.php';
 include_once '../common/mongodb.php'; //加载数据库操作类 
