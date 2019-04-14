@@ -20,7 +20,7 @@
 
 <?php
 
-// page 64
+// page 20
 //http://www.test.com/caiji/insertWeixin.php
 /*
  * 
