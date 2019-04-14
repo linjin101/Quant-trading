@@ -42,9 +42,9 @@ $MongoDBOP = new MongoDBOP();
 $rowlist = $MongoDBOP->mongoSearch('test.url');
 $i = 1;
 foreach ($rowlist as $articleData) {
-    echo $i.':'.$articleData['link'].'\r\n';
+    echo $i.':'.$articleData['link'].chr(10).chr(13);
     $randSleep = rand(2,8);
-    echo $randSleep.'\r\n';
+    echo $randSleep.chr(10).chr(13);
     sleep($randSleep);
     saveWeixinArticle($articleData['link']);
     $i++;
