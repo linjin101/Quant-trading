@@ -23,7 +23,10 @@
 // page 1
 //http://www.test.com/caiji/insertWeixin.php
 /*
- * 
+ *
+ 查询倒叙
+ db.getCollection('url').find({}).sort({"update_time":-1})
+
 导入json命令：mongoimport --db test --collection url --file D:\dev\Quant-trading\php\stock\caiji\1423.json
 导出json命令：mongoexport --db test --collection url --out D:\dev\Quant-trading\php\stock\caiji\1710.json
  
