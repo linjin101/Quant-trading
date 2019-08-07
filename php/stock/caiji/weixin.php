@@ -29,6 +29,17 @@
   </Directory>
 </VirtualHost>
 
+update:
+db.getCollection('url').update({"aid":"2247500679_3"},{$set:{"item_show_type":'1'}})   
+
+order by :
+db.getCollection('url').find({}).sort({"update_time":-1})
+
+mongodb多行更新：
+db.getCollection('url').update( {},{$set:{'item_show_type':'1'}},{multi:true})
+1：表示已抓取
+0：表示为抓取
+
  */
 include_once '../vendor/autoload.php'; //加载composer
 include_once '../common/config.php';
@@ -39,15 +50,30 @@ include_once '../common/common.php';
 use QL\QueryList;
 
 $MongoDBOP = new MongoDBOP();
-$rowlist = $MongoDBOP->mongoSearch('test.url');
+$rowlist = $MongoDBOP->mongoSearch('test.url',['item_show_type' => 0] ,['sort'=>[ 'update_time'=> 1 ] ]);
 $i = 1;
 foreach ($rowlist as $articleData) {
-    echo $i.':'.$articleData['link'].chr(10).chr(13);
+    
+	$strHttps = substr($articleData['link'],0,5);
+	if ( $strHttps != 'https') {
+	    $articleData['link'] = 'https'.substr($articleData['link'],4);
+	}
+
+	echo $i.':'.chr(10).chr(13);
+	echo $articleData['link'].chr(10).chr(13);
+	echo 'date:'.$articleData['date'].chr(10).chr(13);
+
+
     $randSleep = rand(2,8);
     echo $randSleep.chr(10).chr(13);
     sleep($randSleep);
     saveWeixinArticle($articleData['link']);
     $i++;
+
+	print_r( $articleData['_id']['oid'] ); 
+	exit;
+
+    $MongoDBOP->mongoUpate('test.url',['_id' => $articleData['_id']],['item_show_type' =>'1'] ,['upsert' => true]);
 }
 
 // $url = 'https://mp.weixin.qq.com/s?__biz=MzIyNjQ4NDk0NA==&mid=2247499610&idx=1&sn=99de0bc6d2aecca9ca4f42d6953d81f1&chksm=e86d08e5df1a81f382f0caa5275402b8b7380aebf7d4bea15468a06229872b990022228303d5#rd';
@@ -69,7 +95,7 @@ $string = str_replace("tempImg.setAttribute('data-backsrc', cover);","", $string
 
 //提取文章发布日期 <em id="publish_time" class="rich_media_meta rich_media_meta_text">2015-03-16</em>
 // preg_match('/<em[^>]*id=\"publish_time\"[^>]*class=\"rich_media_meta rich_media_meta_text\">(.*?)<\/em>/si',$string, $matchTime);
-preg_match('/publish_time = \"(.*?)\"/si',$string, $matchTime);
+preg_match('/\",s=\"(.*?)\"/si',$string, $matchTime);
 // dd($matchTime);
 $articleTime = $matchTime[1];
 
@@ -77,6 +103,10 @@ $articleTime = $matchTime[1];
 preg_match_all('/<img(.*?)data-src=\"(.*?)\"(.*?)>/i', $string, $matchimg);
 // ddd($matchimg);
 $time = time();
+
+// 去掉微信二维码 <div class=\"qr_code_pc_inner\">([\s\S]+?)</div>([\s\S]+?)</div>([\s\S]+?)</div>
+$string = preg_replace("/<div id=\"js_pc_qr_code\"([\s\S]+?)<\/div>([\s\S]+?)<\/div>([\s\S]+?)<\/div>/", ' ',$string);
+
 
 //图片文件保存根目录
 $ROOT = getcwd();
