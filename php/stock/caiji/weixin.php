@@ -32,14 +32,17 @@
 update:
 db.getCollection('url').update({"aid":"2247500679_3"},{$set:{"item_show_type":'1'}})   
 
-order by :
-db.getCollection('url').find({}).sort({"update_time":-1})
+未采集正序排列order by :
+db.getCollection('url').find({'item_show_type' : 0}).sort({"update_time":1})
 
-mongodb多行更新：
-db.getCollection('url').update( {},{$set:{'item_show_type':'1'}},{multi:true})
+mongodb大于某个时间多行更新未采集：
+//db.getCollection('url').update( {},{$set:{'item_show_type':'1'}},{multi:true})
+db.getCollection('url').update( {"update_time" : {$gt : 1555338072}} ,{$set:{'item_show_type':0}},{multi:true})
 1：表示已抓取
 0：表示为抓取
 
+采集:
+http://www.stock.com/caiji/weixin.php
  */
 include_once '../vendor/autoload.php'; //加载composer
 include_once '../common/config.php';
@@ -70,10 +73,9 @@ foreach ($rowlist as $articleData) {
     saveWeixinArticle($articleData['link']);
     $i++;
 
-	print_r( $articleData['_id']['oid'] ); 
-	exit;
+	print_r( $articleData['_id']['$oid'] );
 
-    $MongoDBOP->mongoUpate('test.url',['_id' => $articleData['_id']],['item_show_type' =>'1'] ,['upsert' => true]);
+    $MongoDBOP->mongoUpate('test.url',['_id' => $articleData['_id']['$oid']],['item_show_type' =>'1'] ,['upsert' => true]);
 }
 
 // $url = 'https://mp.weixin.qq.com/s?__biz=MzIyNjQ4NDk0NA==&mid=2247499610&idx=1&sn=99de0bc6d2aecca9ca4f42d6953d81f1&chksm=e86d08e5df1a81f382f0caa5275402b8b7380aebf7d4bea15468a06229872b990022228303d5#rd';
