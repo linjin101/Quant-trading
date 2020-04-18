@@ -1,0 +1,527 @@
+2020-04-19 00:26:41.674 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication on win-10 with PID 4040 (D:\work\javawork\SSM-spring-boot\myssm\target\classes started by Administrator in D:\work\javawork\SSM-spring-boot\myssm)
+2020-04-19 00:26:41.677 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 00:26:42.763 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 00:26:42.770 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:26:42.770 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 00:26:42.771 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 00:26:42.840 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 00:26:42.841 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1090 ms
+2020-04-19 00:26:42.929 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:26:43.094 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:26:43.534 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:26:43.582 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:26:43.643 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:26:43.749 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:26:43.776 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:26:43.788 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:26:43.816 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:26:43.965 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:26:44.041 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:26:44.056 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 00:26:44.058 [main] INFO  com.ssm.demo.DemoApplication - Started DemoApplication in 2.724 seconds (JVM running for 3.603)
+2020-04-19 00:26:57.038 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 00:26:57.038 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 00:26:57.043 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-04-19 00:45:03.201 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication on win-10 with PID 884 (D:\work\javawork\SSM-spring-boot\myssm\target\classes started by Administrator in D:\work\javawork\SSM-spring-boot\myssm)
+2020-04-19 00:45:03.202 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 00:45:04.620 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 00:45:04.625 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:45:04.626 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 00:45:04.626 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 00:45:04.688 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 00:45:04.689 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1457 ms
+2020-04-19 00:45:04.780 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:45:04.913 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:45:05.376 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:45:05.420 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:45:05.478 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:45:05.574 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:45:05.602 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:45:05.613 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:45:05.637 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:45:05.760 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:45:05.833 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:45:05.848 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 00:45:05.850 [main] INFO  com.ssm.demo.DemoApplication - Started DemoApplication in 2.94 seconds (JVM running for 3.237)
+2020-04-19 00:45:11.750 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 00:45:11.751 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 00:45:11.756 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-04-19 00:45:32.513 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication on win-10 with PID 14484 (D:\work\javawork\SSM-spring-boot\myssm\target\classes started by Administrator in D:\work\javawork\SSM-spring-boot\myssm)
+2020-04-19 00:45:32.516 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 00:45:34.034 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 00:45:34.042 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:45:34.043 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 00:45:34.043 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 00:45:34.132 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 00:45:34.132 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1577 ms
+2020-04-19 00:45:34.240 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:45:34.405 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:45:35.052 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:45:35.133 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:45:35.214 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:45:35.364 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:45:35.399 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:45:35.415 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:45:35.446 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:45:35.616 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:46:09.856 [main] INFO  com.ssm.demo.DemoApplicationTests - Starting DemoApplicationTests on win-10 with PID 8316 (started by Administrator in D:\work\javawork\SSM-spring-boot\myssm)
+2020-04-19 00:46:09.857 [main] INFO  com.ssm.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-19 00:46:11.137 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:46:11.345 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:46:12.238 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:46:12.418 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:46:12.685 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:46:13.001 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:46:13.053 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:46:13.074 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:46:13.109 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:46:13.292 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:46:13.395 [main] INFO  com.ssm.demo.DemoApplicationTests - Started DemoApplicationTests in 3.845 seconds (JVM running for 4.645)
+2020-04-19 00:46:13.609 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 00:46:13.610 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:46:13.615 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 00:46:25.017 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 8692 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 00:46:25.020 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 00:46:26.768 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 00:46:26.777 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:46:26.778 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 00:46:26.778 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 00:46:26.942 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 00:46:26.942 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1871 ms
+2020-04-19 00:46:27.054 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:46:27.267 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:46:27.928 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:46:27.997 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:46:28.084 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:46:28.297 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:46:28.324 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:46:28.344 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:46:28.382 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:46:28.577 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:46:28.681 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:46:28.712 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 00:46:28.716 [main] INFO  com.ssm.demo.DemoApplication - Started DemoApplication in 4.674 seconds (JVM running for 5.063)
+2020-04-19 00:48:55.859 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 15876 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 00:48:55.862 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 00:48:57.684 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 00:48:57.694 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:48:57.695 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 00:48:57.695 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 00:48:57.864 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 00:48:57.864 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1949 ms
+2020-04-19 00:48:57.974 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:48:58.178 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:48:58.818 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:48:58.896 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:48:58.981 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:48:59.217 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:48:59.247 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:48:59.267 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:48:59.302 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:48:59.499 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:48:59.602 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:48:59.625 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 00:48:59.627 [main] INFO  com.ssm.demo.DemoApplication - Started DemoApplication in 4.158 seconds (JVM running for 4.537)
+2020-04-19 00:49:09.381 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 00:49:09.382 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 00:49:09.390 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-04-19 00:49:35.541 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 00:49:35.542 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:49:35.563 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 00:50:22.535 [main] INFO  com.ssm.demo.DemoApplicationTests - Starting DemoApplicationTests on win-10 with PID 11880 (started by Administrator in D:\work\javawork\SSM-spring-boot\myssm)
+2020-04-19 00:50:22.537 [main] INFO  com.ssm.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-19 00:50:23.940 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:50:24.172 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:50:25.081 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:50:25.253 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:50:25.515 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:50:25.805 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:50:25.871 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:50:25.896 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:50:25.935 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:50:26.147 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:50:26.233 [main] INFO  com.ssm.demo.DemoApplicationTests - Started DemoApplicationTests in 4.048 seconds (JVM running for 4.883)
+2020-04-19 00:50:26.438 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 00:50:26.439 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:50:26.443 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 00:51:19.676 [main] INFO  com.ssm.demo.DemoApplicationTests - Starting DemoApplicationTests on win-10 with PID 14480 (started by Administrator in D:\work\javawork\SSM-spring-boot\myssm)
+2020-04-19 00:51:19.677 [main] INFO  com.ssm.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-19 00:51:20.979 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:51:21.210 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:51:22.077 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:51:22.252 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:51:22.519 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:51:22.828 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:51:22.893 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:51:22.918 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:51:22.954 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:51:23.137 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:51:23.227 [main] INFO  com.ssm.demo.DemoApplicationTests - Started DemoApplicationTests in 3.859 seconds (JVM running for 4.656)
+2020-04-19 00:51:23.428 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 00:51:23.429 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:51:23.434 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 00:51:32.661 [main] INFO  com.ssm.demo.DemoApplicationTests - Starting DemoApplicationTests on win-10 with PID 6104 (started by Administrator in D:\work\javawork\SSM-spring-boot\myssm)
+2020-04-19 00:51:32.662 [main] INFO  com.ssm.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-19 00:51:33.962 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:51:34.198 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:51:35.045 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:51:35.211 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:51:35.477 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:51:35.786 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:51:35.839 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:51:35.865 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:51:35.901 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:51:36.083 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:51:36.185 [main] INFO  com.ssm.demo.DemoApplicationTests - Started DemoApplicationTests in 3.823 seconds (JVM running for 4.627)
+2020-04-19 00:51:36.371 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 00:51:36.372 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:51:36.376 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 00:52:24.236 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 11196 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 00:52:24.240 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 00:52:26.068 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 00:52:26.078 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:52:26.079 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 00:52:26.079 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 00:52:26.236 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 00:52:26.237 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1943 ms
+2020-04-19 00:52:26.349 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:52:26.560 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:52:27.229 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:52:27.303 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:52:27.379 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:52:27.619 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:52:27.648 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:52:27.676 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:52:27.710 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:52:27.903 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:52:28.001 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:52:28.024 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 00:52:28.027 [main] INFO  com.ssm.demo.DemoApplication - Started DemoApplication in 4.228 seconds (JVM running for 4.645)
+2020-04-19 00:59:22.068 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 16816 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 00:59:22.071 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 00:59:23.945 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 00:59:23.954 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:23.955 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 00:59:23.955 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 00:59:24.114 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 00:59:24.114 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1990 ms
+2020-04-19 00:59:24.231 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:59:24.430 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:59:25.083 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:59:25.160 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:59:25.248 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:59:25.473 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:59:25.503 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:59:25.532 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:59:25.575 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:59:25.751 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:59:25.835 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:25.846 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:25.847 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-19 00:59:25.852 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:25.852 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:25.854 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-19 00:59:25.859 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 00:59:25.860 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:59:25.864 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 00:59:28.498 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 13412 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 00:59:28.501 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 00:59:30.362 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 00:59:30.370 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:30.371 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 00:59:30.371 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 00:59:30.527 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 00:59:30.527 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1974 ms
+2020-04-19 00:59:30.638 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:59:30.842 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:59:31.491 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:59:31.572 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:59:31.659 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:59:31.887 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:59:31.917 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:59:31.939 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:59:31.979 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:59:32.160 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:59:32.267 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:32.280 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:32.280 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-19 00:59:32.285 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:32.285 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:32.287 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-19 00:59:32.292 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 00:59:32.293 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:59:32.295 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 00:59:36.714 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 4804 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 00:59:36.717 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 00:59:38.517 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 00:59:38.527 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:38.527 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 00:59:38.528 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 00:59:38.682 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 00:59:38.683 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1914 ms
+2020-04-19 00:59:38.806 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:59:39.024 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:59:39.724 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:59:39.801 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:59:39.903 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:59:40.150 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:59:40.176 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:59:40.197 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:59:40.236 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:59:40.427 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:59:40.533 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:40.545 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:40.545 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-19 00:59:40.549 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:40.549 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:40.551 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-19 00:59:40.555 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 00:59:40.556 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:59:40.558 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 00:59:48.687 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 13712 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 00:59:48.690 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 00:59:50.529 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 00:59:50.540 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:50.541 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 00:59:50.541 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 00:59:50.705 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 00:59:50.705 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1970 ms
+2020-04-19 00:59:50.833 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 00:59:51.034 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 00:59:51.689 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 00:59:51.817 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 00:59:51.912 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:59:52.133 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 00:59:52.171 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 00:59:52.196 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 00:59:52.231 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 00:59:52.411 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 00:59:52.508 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:52.520 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:52.521 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-19 00:59:52.525 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:52.526 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-04-19 00:59:52.528 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-19 00:59:52.532 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 00:59:52.533 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 00:59:52.536 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 01:00:15.317 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 16816 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 01:00:15.320 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 01:00:17.119 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 01:00:17.131 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:00:17.132 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 01:00:17.132 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 01:00:17.283 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 01:00:17.283 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1914 ms
+2020-04-19 01:00:17.395 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 01:00:17.588 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 01:00:18.241 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 01:00:18.317 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 01:00:18.397 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:00:18.619 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 01:00:18.663 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 01:00:18.691 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 01:00:18.725 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 01:00:18.909 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 01:00:19.014 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:00:19.029 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:00:19.029 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-19 01:00:19.034 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:00:19.036 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:00:19.043 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-19 01:00:19.050 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 01:00:19.051 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:00:19.054 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 01:02:34.007 [main] INFO  com.ssm.demo.DemoApplicationTests - Starting DemoApplicationTests on win-10 with PID 9684 (started by Administrator in D:\work\javawork\SSM-spring-boot\myssm)
+2020-04-19 01:02:34.008 [main] INFO  com.ssm.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-19 01:02:35.324 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 01:02:35.540 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 01:02:36.417 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 01:02:36.579 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 01:02:36.855 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:02:37.172 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 01:02:37.240 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 01:02:37.267 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 01:02:37.306 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 01:02:37.500 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 01:02:37.592 [main] INFO  com.ssm.demo.DemoApplicationTests - Started DemoApplicationTests in 3.895 seconds (JVM running for 4.715)
+2020-04-19 01:02:37.801 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 01:02:37.802 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:02:37.806 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 01:03:14.927 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 3608 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 01:03:14.930 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 01:03:16.755 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 01:03:16.766 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:03:16.767 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 01:03:16.767 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 01:03:16.931 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 01:03:16.932 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1952 ms
+2020-04-19 01:03:17.049 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 01:03:17.248 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 01:03:17.965 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 01:03:18.040 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 01:03:18.164 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:03:18.415 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 01:03:18.449 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 01:03:18.478 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 01:03:18.521 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 01:03:18.736 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 01:03:18.843 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:03:18.874 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 01:03:18.877 [main] INFO  com.ssm.demo.DemoApplication - Started DemoApplication in 4.338 seconds (JVM running for 4.7)
+2020-04-19 01:03:19.132 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 01:03:19.133 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 01:03:19.141 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-04-19 01:03:42.028 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 15680 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 01:03:42.030 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 01:03:43.255 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 12936 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 01:03:43.258 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 01:03:44.552 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 01:03:44.562 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:03:44.563 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 01:03:44.563 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 01:03:44.630 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 01:03:44.631 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2555 ms
+2020-04-19 01:03:44.938 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 01:03:45.419 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 01:03:46.148 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 01:03:46.182 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:03:46.183 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 01:03:46.184 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 01:03:46.425 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 01:03:46.426 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3113 ms
+2020-04-19 01:03:46.508 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 01:03:46.722 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 01:03:46.754 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 01:03:46.933 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:03:47.208 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 01:03:47.369 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 01:03:47.411 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 01:03:47.493 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 01:03:47.571 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 01:03:48.184 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 01:03:48.398 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:03:48.438 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:03:48.439 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-19 01:03:48.450 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:03:48.452 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:03:48.455 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-19 01:03:48.460 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 01:03:48.461 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:03:48.465 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 01:03:48.610 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 01:03:48.688 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 01:03:48.768 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:03:48.996 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 01:03:49.027 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 01:03:49.047 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 01:03:49.084 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 01:03:49.269 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 01:03:49.367 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:03:49.380 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:03:49.380 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-19 01:03:49.385 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:03:49.385 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:03:49.387 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-19 01:03:49.391 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 01:03:49.392 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:03:49.394 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 01:04:25.826 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 3228 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 01:04:25.830 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 01:04:26.852 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 16156 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 01:04:26.866 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 01:04:28.441 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 01:04:28.473 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:04:28.477 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 01:04:28.480 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 01:04:28.709 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 01:04:28.709 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2822 ms
+2020-04-19 01:04:28.910 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 01:04:29.165 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 01:04:29.500 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 01:04:29.511 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:04:29.512 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 01:04:29.513 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 01:04:29.716 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 01:04:29.716 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2775 ms
+2020-04-19 01:04:29.916 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 01:04:30.283 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 01:04:30.405 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 01:04:30.457 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 01:04:30.563 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:04:30.942 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 01:04:30.974 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 01:04:31.006 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 01:04:31.100 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 01:04:31.518 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 01:04:31.743 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:04:31.770 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:04:31.770 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-19 01:04:31.776 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:04:31.776 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:04:31.781 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-19 01:04:31.786 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 01:04:31.787 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:04:31.791 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 01:04:31.901 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 01:04:31.975 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 01:04:32.057 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:04:32.278 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 01:04:32.304 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 01:04:32.325 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 01:04:32.362 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 01:04:32.556 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 01:04:32.660 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:04:32.672 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:04:32.672 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-19 01:04:32.676 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:04:32.676 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:04:32.679 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-19 01:04:32.682 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 01:04:32.683 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:04:32.686 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-19 01:06:32.190 [main] INFO  com.ssm.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on win-10 with PID 2756 (D:\work\javawork\SSM-spring-boot\myssm\target\demo-0.0.1-SNAPSHOT.jar started by Administrator in D:\work\javawork\SSM-spring-boot\myssm\target)
+2020-04-19 01:06:32.193 [main] INFO  com.ssm.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-04-19 01:06:34.045 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 01:06:34.055 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:06:34.055 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 01:06:34.056 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 01:06:34.122 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 01:06:34.122 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1880 ms
+2020-04-19 01:06:34.325 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-19 01:06:34.524 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-19 01:06:35.169 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-19 01:06:35.256 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-19 01:06:35.353 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:06:35.598 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-19 01:06:35.634 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-19 01:06:35.664 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-19 01:06:35.703 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-19 01:06:35.923 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: fileuploadUsingPOST_1
+2020-04-19 01:06:36.040 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 01:06:36.067 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 01:06:36.069 [main] INFO  com.ssm.demo.DemoApplication - Started DemoApplication in 4.274 seconds (JVM running for 4.648)
+2020-04-19 01:06:43.123 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 01:06:43.124 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 01:06:43.130 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-04-19 01:07:27.219 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-19 01:07:27.222 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 01:07:27.259 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

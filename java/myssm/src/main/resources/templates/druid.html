@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+    <title>actors</title>
+<script src="/js/jquery-1.12.3.min.js"></script>
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/jquery.bootgrid.min.css"/>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="/js/jquery.bootgrid.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap-datetimepicker.min.js"></script>
+<script src="/js/showactor.js"></script>
+  <link rel="stylesheet" href="/css/bootstrap-datetimepicker.min.css" type="text/css"></link>
+  </head>
+  <body>
+  <div class="container">
+  	<div class="row">
+  		<div class="col-md-12">
+  		  	<div id="headnav" >
+  		  	<!-- head html -->
+  		  	</div>
+  		    
+			<iframe src="/druid/index.html" frameborder="0" scrolling="no" id="external-frame" style="width:100%" onload="setIframeHeight(this)"></iframe>
+  		  	
+ 	  	</div>
+  	</div>
+  </div>
+  </body>
+  <script type="text/javascript">
+  $(document).ready(function(){
+	$("#headnav").load("/html/head.html");
+  
+  });
+//document.domain = "caibaojian.com";
+  function setIframeHeight(iframe) {
+  if (iframe) {
+  var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+  if (iframeWin.document.body) {
+  iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+  }
+  }
+  };
+
+  window.onload = function () {
+  setIframeHeight(document.getElementById('external-frame'));
+  };
+  </script>
+</html>
